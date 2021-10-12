@@ -1,0 +1,13 @@
+{
+  "name": "mock-fh5",
+  "version": "0.0.1",
+  "description": "Forza Horizon 5 car list",
+  "main": "index.js",
+  "author": "Richard Hess",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "fs": "^0.0.1-security",
+    "papaparse": "^5.3.1"
+  }
+}
