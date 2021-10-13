@@ -53,6 +53,18 @@ const dealerSuffix = [
   'Venture',
 ]
 
+const fieldSorter = (fields) => (a, b) =>
+  fields
+    .map((o) => {
+      let dir = 1
+      if (o[0] === '-') {
+        dir = -1
+        o = o.substring(1)
+      }
+      return a[o] > b[o] ? dir : a[o] < b[o] ? -dir : 0
+    })
+    .reduce((p, n) => (p ? p : n), 0)
+
 const generateDealers = (data) => {
   const numDealers = chance.integer({ min: 3, max: 7 })
   const dealerIds = chance.unique(chance.ssn, numDealers, {
@@ -62,20 +74,22 @@ const generateDealers = (data) => {
   const dealers = dealerIds.reduce((bucket, id) => {
     const numVins = chance.integer({ min: 3, max: 14 })
     const ids = chance.unique(vinGenerator.generateVin, numVins)
-    const cars = ids.map((vin) => {
-      const indx = chance.integer({ min: 0, max: data.length - 1 })
-      const color = chance.pickone(colors)
-      const { make, model, year } = data[indx]
-      const obj = {
-        id: shortid.generate(),
-        vin,
-        make,
-        model,
-        year,
-        color,
-      }
-      return obj
-    })
+    const cars = ids
+      .map((vin) => {
+        const indx = chance.integer({ min: 0, max: data.length - 1 })
+        const color = chance.pickone(colors)
+        const { make, model, year } = data[indx]
+        const obj = {
+          id: shortid.generate(),
+          vin,
+          make,
+          model,
+          year,
+          color,
+        }
+        return obj
+      })
+      .sort(fieldSorter(['-year', 'make', 'model']))
 
     const dealer = {
       id: shortid.generate(),
