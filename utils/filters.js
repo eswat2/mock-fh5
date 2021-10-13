@@ -1,7 +1,9 @@
 const makes = (data) => {
-  return data.reduce((list, item) => {
-    return list.includes(item.make) ? list : [...list, item.make]
-  }, []).sort()
+  return data
+    .reduce((list, item) => {
+      return list.includes(item.make) ? list : [...list, item.make]
+    }, [])
+    .sort()
 }
 
 const ids = (data) => {
@@ -10,9 +12,9 @@ const ids = (data) => {
 
 const filters = {
   makes,
-  ids
+  ids,
 }
 
 module.exports = {
-  filters
+  filters,
 }
