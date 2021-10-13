@@ -1,0 +1,47 @@
+{
+  "version": 2,
+  "builds": [
+    {
+      "src": "api/*.js",
+      "use": "@now/node"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/api/cars",
+      "dest": "/api/cars.js"
+    },
+    {
+      "src": "/api/colors",
+      "dest": "/api/colors.js"
+    },
+    {
+      "src": "/api/exotics",
+      "dest": "/api/exotics.js"
+    },
+    {
+      "src": "/api/groups",
+      "dest": "/api/groups.js"
+    },
+    {
+      "src": "/api/makes",
+      "dest": "/api/makes.js"
+    },
+    {
+      "src": "/api/solution",
+      "dest": "/api/solution.js"
+    },
+    {
+      "src": "/api/stats",
+      "dest": "/api/stats.js"
+    },
+    {
+      "src": "/api",
+      "dest": "/api/greetings.js"
+    },
+    {
+      "src": "/",
+      "dest": "/api/hello.js"
+    }
+  ]
+}
