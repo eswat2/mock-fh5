@@ -16,24 +16,12 @@
       "dest": "/api/colors.js"
     },
     {
-      "src": "/api/exotics",
-      "dest": "/api/exotics.js"
-    },
-    {
-      "src": "/api/groups",
-      "dest": "/api/groups.js"
-    },
-    {
       "src": "/api/makes",
       "dest": "/api/makes.js"
     },
     {
       "src": "/api/solution",
       "dest": "/api/solution.js"
-    },
-    {
-      "src": "/api/stats",
-      "dest": "/api/stats.js"
     },
     {
       "src": "/api",
