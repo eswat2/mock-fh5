@@ -79,6 +79,8 @@ const generateDealers = (data) => {
         const indx = chance.integer({ min: 0, max: data.length - 1 })
         const color = chance.pickone(colors)
         const { make, model, year } = data[indx]
+        const racing = model.match(/^\#[0-9]*/).length > 0
+        const exotic = year === 2554
         const obj = {
           id: shortid.generate(),
           vin,
@@ -86,6 +88,8 @@ const generateDealers = (data) => {
           model,
           year,
           color,
+          racing,
+          exotic
         }
         return obj
       })
