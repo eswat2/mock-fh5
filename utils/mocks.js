@@ -70,6 +70,7 @@ const generateDealers = (data) => {
   const dealerIds = chance.unique(chance.ssn, numDealers, {
     dashes: false,
   })
+  const racingRegex = /^\#[0-9]*/
 
   const dealers = dealerIds.reduce((bucket, id) => {
     const numVins = chance.integer({ min: 3, max: 14 })
@@ -79,7 +80,7 @@ const generateDealers = (data) => {
         const indx = chance.integer({ min: 0, max: data.length - 1 })
         const color = chance.pickone(colors)
         const { make, model, year } = data[indx]
-        const racing = model.match(/^\#[0-9]*/).length > 0
+        const racing = model.match(racingRegex) !== null
         const exotic = year === 2554
         const obj = {
           id: shortid.generate(),
