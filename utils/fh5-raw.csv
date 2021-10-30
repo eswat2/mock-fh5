@@ -1,6 +1,6 @@
 year,make,model
-2001,Acura,Integra Type-R
-2002,Acura,RSX Type-S
+2001,Acura,Integra Type R
+2002,Acura,RSX Type S
 2017,Acura,NSX
 1973,Alpine,A110 1600s
 2017,Alpine,A110
@@ -19,12 +19,13 @@ year,make,model
 2019,Aston Martin,DBS Superleggera
 2019,Aston Martin,Valhalla Concept Car
 1984,Audi,Sport quattro
-1995,Audi,RS 2 Avant
+1995,Audi,Avant RS2
 2001,Audi,RS 4 Avant
 2003,Audi,RS 6
 2006,Audi,RS 4
 2009,Audi,RS 6
 2010,Audi,TT RS Coupé
+2011,Audi,RS 3 Sportback
 2011,Audi,RS 5 Coupé
 2013,Audi,RS 4 Avant
 2013,Audi,RS 7 Sportback
@@ -33,9 +34,13 @@ year,make,model
 2015,Audi,TTS Coupé
 2015,Audi,S1
 2016,Audi,R8 V10 plus
-1958,Austin Healey,Sprite MkI
+1958,Austin-Healey,Sprite MkI
 1939,Auto Union,Type D
 2014,BAC,Mono
+1930,Bentley,4-1/2 Litre Supercharged
+1930,Bentley,8 Litre
+2016,Bentley,Bentayga
+2017,Bentley,Continental Supersports
 1957,BMW,Isetta 300 Export
 1981,BMW,M1
 1988,BMW,M5
@@ -56,7 +61,8 @@ year,make,model
 2014,BMW,M4 Coupe
 2015,BMW,i8
 2015,BMW,X6 M
-2016,BMW,M2 Coupe
+2016,BMW,M2 Coupé
+2016,BMW,M4 GTS
 2018,BMW,M5
 2019,BMW,Z4 Roadster
 1926,Bugatti,Type 35 C
@@ -70,9 +76,10 @@ year,make,model
 2016,Cadillac,CTS-V Sedan
 2018,Can-Am,Maverick X RS Turbo R
 2013,Caterham,Superlight R500
-1953,Chevrolet,Corvette
+1953,Chevrolet,Corvette Forza Edition
 1955,Chevrolet,150 Utility Sedan
 1957,Chevrolet,Bel Air
+1960,Chevrolet,Corvette
 1964,Chevrolet,Impala Super Sport 409
 1967,Chevrolet,Corvette Stingray 427
 1969,Chevrolet,Camaro Super Sport Coupe
@@ -93,11 +100,12 @@ year,make,model
 2017,Chevrolet,Colorado ZR2
 2018,Chevrolet,Camaro ZL1 1LE
 2019,Chevrolet,Corvette ZR1
-2020,Chevrolet,Corvette Stingray Coupe
+2020,Chevrolet,Corvette Stingray Coupé
 1970,Datsun,510
-2013,DeBerti Design,Jeep Wrangler Unlimited
-2018,DeBerti Design,Chevrolet Silverado 1500 Drift Truck
-2018,DeBerti Design,Ford F-150 Prerunner
+2013,DeBerti,Jeep Wrangler Unlimited
+2018,DeBerti,Chevrolet Silverado 1500 Drift Truck
+2018,DeBerti,Ford F-150 Prerunner
+2019,DeBerti,Toyota Tacoma TRD 'The Performance Truck'
 1969,Dodge,Charger R/T
 1969,Dodge,Charger Daytona HEMI
 1970,Dodge,Challenger R/T
@@ -109,6 +117,7 @@ year,make,model
 2018,Dodge,Durango SRT
 2018,Dodge,Challenger SRT Demon
 2018,Exomotive,Exocet Off-Road
+2018,Exomotive,Exocet Off-Road Forza Edition
 1957,Ferrari,250 Testa Rossa
 1957,Ferrari,250 California
 1967,Ferrari,#24 Ferrari Spa 330 P4
@@ -138,9 +147,10 @@ year,make,model
 1940,Ford,De Luxe Coupe
 1956,Ford,F-100
 1959,Ford,Anglia 105E
-1964,Ford,GT40 MKI
+1964,Ford,GT40 Mk I
 1965,Ford,Mustang GT Coupe
 1965,Ford,Transit
+1966,Ford,#2 GT40 Mk II
 1966,Ford,Lotus Cortina
 1967,Ford,Racing Escort MK1
 1968,Ford,Mustang GT 2+2 Fastback
@@ -181,13 +191,15 @@ year,make,model
 2017,Ford,#14 Rahal Letterman Lanigan Racing GRC Fiesta
 2017,Ford,#25 'Brocky' Ultra4 Bronco RTR
 2018,Ford,#25 Mustang RTR
+2018,Ford,Mustang GT
 2018,Ford,Mustang RTR Spec 5
-2018,Ford,#88 Ford Mustang RTR
+2018,Ford,#88 Mustang RTR
 2019,Ford,Ranger Raptor
 2020,Ford,Mustang Shelby GT500
 2020,Ford,#2069 Ford Performance Bronco R (and 'Welcome Pack' edition)*
 2020,Ford,Super Duty F-450 DRW PLATINUM
 2021,Ford,Bronco
+1989,Formula Drift,#98 BMW 325i
 1997,Formula Drift,#777 Nissan 240SX
 2006,Formula Drift,#43 Dodge Viper SRT10
 2007,Formula Drift,#117 599 GTB Fiorano
@@ -198,7 +210,7 @@ year,make,model
 2018,Funco Motorsports,F9
 1983,GMC,Vandura G-1500
 2012,Hennessey,Venom GT
-2019,Hennessey,VelociRaptor 6X6
+2019,Hennessey,VelociRaptor 6x6
 1973,Holden,HQ Monaro GTS 350
 1974,Holden,Sandman HQ panel van
 1977,Holden,Torana A9X
@@ -208,10 +220,10 @@ year,make,model
 1994,Honda,Prelude Si
 1997,Honda,Civic Type R
 2003,Honda,S2000
-2004,Honda,Civic Type-R
+2004,Honda,Civic Type R
 2005,Honda,NSX-R
 2005,Honda,NSX-R GT
-2007,Honda,Civic Type-R
+2007,Honda,Civic Type R
 2009,Honda,S2000 CR
 2015,Honda,Civic Type R
 2016,Honda,Civic Coupe GRC
@@ -242,6 +254,7 @@ year,make,model
 1964,Jaguar,Lightweight E-Type
 1991,Jaguar,Sport XJR-15
 1993,Jaguar,XJ220
+2010,Jaguar,C-X75
 2012,Jaguar,XKR-S
 2015,Jaguar,F-Type R Coupé
 2015,Jaguar,XFR-S
@@ -271,6 +284,7 @@ year,make,model
 2010,Lamborghini,Murciélago LP 670-4 SV
 2011,Lamborghini,Gallardo LP 570-4 Superleggera
 2011,Lamborghini,Sesto Elemento
+2011,Lamborghini,Sesto Elemento Forza Edition
 2012,Lamborghini,Aventador LP700-4
 2013,Lamborghini,Veneno
 2014,Lamborghini,Huracán LP 610-4
@@ -294,8 +308,10 @@ year,make,model
 1999,Lotus,Elise Series 1 Sport 190
 2012,Lotus,Exige S
 2016,Lotus,3-Eleven
+2020,Lotus,Evija
 2008,Maserati,MC12 Versione Corsa
 2010,Maserati,Gran Turismo S
+2010,Maserati,Gran Turismo S Forza Edition
 2017,Maserati,Levante S
 1990,Mazda,Savanna RX-7
 1994,Mazda,MX-5 Miata
@@ -310,7 +326,7 @@ year,make,model
 2013,McLaren,P1
 2015,McLaren,650S Coupe
 2015,McLaren,570S Coupé
-2018,McLaren,720S
+2018,McLaren,720S Coupé
 2018,McLaren,Senna
 2018,McLaren,600LT Coupé
 2019,McLaren,720S Spider
@@ -327,6 +343,7 @@ year,make,model
 1987,Mercedes-Benz,AMG Hammer Coupe
 1990,Mercedes-Benz,190E 2.5-16 Evolution II
 1998,Mercedes-Benz,AMG CLK GTR
+1998,Mercedes-Benz,AMG CLK GTR Forza Edition
 2011,Mercedes-Benz,SLS AMG
 2012,Mercedes-Benz,SLK 55 AMG
 2012,Mercedes-Benz,C 63 AMG Coupé Black Series
@@ -336,9 +353,17 @@ year,make,model
 2014,Mercedes-Benz,Unimog U5023
 2014,Mercedes-Benz,G 63 AMG 6x6
 2015,Mercedes-Benz,#24 Tankpool24 Racing Truck
+2015,Mercedes-Benz,#24 Tankpool24 Racing Truck Forza Edition
 2018,Mercedes-Benz,X-Class
 1971,Meyers,Manx
+1971,Meyers,Manx Forza Edition
 1986,MG,Metro 6R4
+1965,MINI,Cooper S
+2009,MINI,John Cooper Works
+2012,MINI,John Cooper Works GP
+2013,MINI,X-Raid ALL4 Racing Countryman
+2018,MINI,John Cooper Works Countryman ALL4
+2018,MINI,X-Raid John Cooper Works Buggy
 1988,Mitsubishi,Starion ESI-R
 1995,Mitsubishi,Eclipse GSX
 1997,Mitsubishi,GTO
@@ -347,7 +372,8 @@ year,make,model
 2006,Mitsubishi,Lancer Evolution IX MR
 2008,Mitsubishi,Lancer Evolution X GSR (and 'Welcome Pack' edition)*
 2014,Morgan,3 Wheeler
-1953,Morris,Minor 1000
+1953,Morris,Minor 1000 Forza Edition
+1958,Morris,Minor 1000
 2010,Mosler,MT900S
 1933,Napier,Napier-Railton
 1969,Nissan,Fairlady Z 432
@@ -365,8 +391,9 @@ year,make,model
 1998,Nissan,R390
 1998,Nissan,Silvia K's Aero
 2000,Nissan,Silvia Spec-R
-2002,Nissan,GT-R V-Spec II
+2002,Nissan,Skyline GT-R V-Spec II
 2003,Nissan,Fairlady Z
+2003,Nissan,Fairlady Z Forza Edition
 2004,Nissan,Pickup #23 Rally Raid
 2010,Nissan,370Z
 2012,Nissan,GT-R Black Edition
@@ -376,15 +403,17 @@ year,make,model
 2009,Pagani,Zonda Cinque Roadster
 2010,Pagani,Zonda R
 2016,Pagani,Huayra BC
+2016,Pagani,Huayra BC Forza Edition
 2011,Penhall,The Cholla
 1984,Peugeot,205 Turbo 16
 1991,Peugeot,205 Rallye
 2007,Peugeot,207 Super 2000
-1971,Plymouth,Cuda 426 HEMI
+1971,Plymouth,Cuda 426 Hemi
 2015,Polaris,RZR XP 1000 EPS
 1965,Pontiac,GTO
 1977,Pontiac,Firebird Trans Am
 1987,Pontiac,Firebird Trans Am GTA
+1987,Pontiac,Firebird Trans Am GTA Forza Edition
 1959,Porsche,356 A 1600 Super
 1970,Porsche,#3 917 LH
 1970,Porsche,914/6
@@ -395,7 +424,7 @@ year,make,model
 1989,Porsche,#65 Rothsport Racing 911 'Desert Flyer'
 1993,Porsche,968 Turbo S
 1995,Porsche,911 GT2
-1997,Porsche,911 GT1 Strassenversion
+1998,Porsche,911 GT1 Strassenversion
 2003,Porsche,Carrera GT
 2004,Porsche,911 GT3
 2012,Porsche,911 GT2 RS
@@ -404,13 +433,14 @@ year,make,model
 2015,Porsche,Cayman GTS
 2016,Porsche,911 GT3 RS
 2016,Porsche,Cayman GT4
-2016,Porsche,911 GT2 RS
 2017,Porsche,Panamera Turbo
 2018,Porsche,718 Cayman GTS
+2018,Porsche,911 GT2 RS
 2018,Porsche,Cayenne Turbo
 2018,Porsche,Macan Rally Raid
 2019,Porsche,911 Carrera S
 2019,Porsche,911 GT3 RS
+2019,Porsche,911 GT3 RS Forza Edition
 2019,Porsche,Macan Turbo
 2020,Porsche,Taycan Turbo S (and 'Welcome Pack' edition)*
 2015,Radical,RXC Turbo
@@ -421,10 +451,12 @@ year,make,model
 2008,Renault,Mégane R26.R
 2013,Renault,Clio R.S. 200 EDC
 2018,Renault,MEGANE R.S.
-2019,Rimac,C_Two
+2019,Rimac,Concept Two
 2016,RJ Anderson,#37 Polaris RZR-Rockstar Energy Pro 2 Truck
 2004,Saleen,S7
 2018,Saleen,S1
+1965,Shelby,Cobra 427 S/C
+1965,Shelby,Cobra Daytona Coupe
 2021,SIERRA Cars,RX3
 1998,SUBARU,Impreza 22B-STi Version
 2004,SUBARU,IMPREZA WRX STi
@@ -452,6 +484,7 @@ year,make,model
 2016,Vauxhall,Corsa VXR
 1963,Volkswagen,Type 2 De Luxe
 1963,Volkswagen,Beetle
+1963,Volkswagen,Beetle Forza Edition
 1969,Volkswagen,Class 5/1600 Baja Bug
 1970,Volkswagen,#1107 Desert Dingo Racing Stock Bug
 1981,Volkswagen,Scirocco S
@@ -464,6 +497,9 @@ year,make,model
 2011,Volkswagen,Scirocco R
 2014,Volkswagen,Golf R
 2017,Volkswagen,#34 Volkswagen Andretti Rallycross Beetle
+1983,Volvo,242 Turbo Evolution
+1997,Volvo,850 R
+2015,Volvo,V60 Polestar
 2017,VUHL,05RR
 1945,Willys,MB Jeep
-2019,Zenvo,TSR - S
+2019,Zenvo,TSR-S
