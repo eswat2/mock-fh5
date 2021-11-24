@@ -19,7 +19,7 @@
   },
   "scripts": {
     "sample": "node sample.mjs",
-    "dev": "now dev",
+    "dev": "vc dev",
     "cc": "prettier --check './**/*.js'",
     "format": "prettier --write './**/*.js'",
     "spell": "cspell './**/*.js'",
