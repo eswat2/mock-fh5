@@ -1,7 +1,5 @@
-import Chance from 'chance'
 import vinGenerator from 'vin-generator'
-
-const chance = new Chance()
+import { chance } from '../utils/mocks'
 
 module.exports = (req, res) => {
   const { count } = req.query
