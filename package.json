@@ -24,6 +24,7 @@
     "format": "prettier --write './**/*.js'",
     "spell": "cspell './**/*.js'",
     "test": "echo skipping...",
+    "predeploy": "yarn version --patch",
     "deploy": "vc --prod",
     "open": "open https://mock-fh5.vercel.app"
   },
