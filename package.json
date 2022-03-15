@@ -9,7 +9,7 @@
   "dependencies": {
     "chance": "1.1.8",
     "fs": "0.0.1-security",
-    "papaparse": "5.3.1",
+    "papaparse": "5.3.2",
     "path": "0.12.7",
     "shortid": "2.2.16",
     "vin-generator": "1.0.1"
