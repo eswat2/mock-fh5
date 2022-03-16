@@ -15,7 +15,7 @@
     "vin-generator": "1.0.1"
   },
   "devDependencies": {
-    "prettier": "2.5.1"
+    "prettier": "2.6.0"
   },
   "scripts": {
     "sample": "node sample.mjs",
