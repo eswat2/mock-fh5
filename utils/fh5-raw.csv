@@ -1,4 +1,4 @@
-year,make,model
+year,make,model,series,pass
 2001,Acura,Integra Type R
 2002,Acura,RSX Type S
 2017,Acura,NSX
@@ -7,7 +7,8 @@ year,make,model
 2015,Alumi Craft,Class 10 Race Car
 1973,AMC,Gremlin X
 2554,AMG Transport Dynamics,M12S Warthog CST
-2018,Apollo,Intensa Emozione (and 'Welcome Pack' edition)*
+2018,Apollo,Intensa Emozione
+2018,Apollo,Intensa Emozione,Welcome Pack
 2013,Ariel,Atom 500 V8
 2016,Ariel,Nomad
 1964,Aston Martin,DB5
@@ -196,7 +197,8 @@ year,make,model
 2018,Ford,#88 Mustang RTR
 2019,Ford,Ranger Raptor
 2020,Ford,Mustang Shelby GT500
-2020,Ford,#2069 Ford Performance Bronco R (and 'Welcome Pack' edition)*
+2020,Ford,#2069 Ford Performance Bronco R
+2020,Ford,#2069 Ford Performance Bronco R,Welcome Pack
 2020,Ford,Super Duty F-450 DRW PLATINUM
 2021,Ford,Bronco
 1989,Formula Drift,#98 BMW 325i
@@ -370,7 +372,8 @@ year,make,model
 1999,Mitsubishi,Lancer Evolution VI GSR
 2004,Mitsubishi,Lancer Evolution VIII MR
 2006,Mitsubishi,Lancer Evolution IX MR
-2008,Mitsubishi,Lancer Evolution X GSR (and 'Welcome Pack' edition)*
+2008,Mitsubishi,Lancer Evolution X GSR
+2008,Mitsubishi,Lancer Evolution X GSR,Welcome Pack
 2014,Morgan,3 Wheeler
 1953,Morris,Minor 1000 Forza Edition
 1958,Morris,Minor 1000
@@ -442,7 +445,8 @@ year,make,model
 2019,Porsche,911 GT3 RS
 2019,Porsche,911 GT3 RS Forza Edition
 2019,Porsche,Macan Turbo
-2020,Porsche,Taycan Turbo S (and 'Welcome Pack' edition)*
+2020,Porsche,Taycan Turbo S
+2020,Porsche,Taycan Turbo S,Welcome Pack
 2015,Radical,RXC Turbo
 2017,Ram,2500 Power Wagon
 1972,Reliant,Supervan III
@@ -473,7 +477,8 @@ year,make,model
 1992,Toyota,Supra 2.0 GT
 1992,Toyota,Celica GT-Four RC ST185
 1994,Toyota,Celica GT-Four ST205
-1998,Toyota,Supra RZ (and 'Welcome Pack' edition)*
+1998,Toyota,Supra RZ
+1998,Toyota,Supra RZ,Welcome Pack
 2013,Toyota,86
 2020,Toyota,GR Supra
 1998,TVR,Cerbera Speed 12
@@ -503,75 +508,75 @@ year,make,model
 2017,VUHL,05RR
 1945,Willys,MB Jeep
 2019,Zenvo,TSR-S
-1973,BMW,2002 Turbo (Barn Find)
-1953,Chevrolet,Corvette (Barn Find)
-1999,Dodge,Viper GTS ACR (Barn Find)
-1968,Dodge,Dart HEMI Super Stock (Barn Find)
-1989,Ferrari,F40 Competizione (Barn Find)
-1962,Ferrari,250 GTO (Barn Find)
-1968,Ford,Mustang GT 2+2 Fastback (Barn Find)
-1967,Ford,Racing Escort Mk1 (Barn Find)
-1956,Ford,F-100 (Barn Find)
-1970,GMC,Jimmy (Barn Find)
-1991,Jaguar,Sport XJR-15 (Barn Find)
-1973,Porsche,911 Carrera RS (Barn Find)
-1968,Renault,4L Export (Barn Find)
-1993,Toyota,#1 T100 Baja Truck (Barn Find)
-2019,Lamborghini,Aventador SVJ (Series 2)
-2010,Ferrari,599 GTO (Series 2)
-2012,Lamborghini,Aventador J (Series 2)
-2012,Lamborghini,Gallardo LP 570-4 Spyder Performante (Series 2)
-1965,Peel,Trident (Series 2)
-2002,Ferrari,575M Maranello (Series 2)
-1939,Maserati,8CTF (Series 2)
-2017,Ferrari,J50 (Dec 9)
-2019,Ferrari,Monza SP2 (Dec 16)
-1973,Lamborghini,Espada 400 GT (Dec 23)
-2020,Lamborghini,Huracan EVO (Dec 30)
-2013,Donkervoort,D8 GTO (Series 3)
-1971,Ford,Mustang Mach 1 (Series 3)
-2015,Jaguar,XKR-S GT (Series 3)
-1990,Vauxhall,Lotus Carlton (Series 3)
-2003,Toyota,Celica SS-I (Series 3)
-2007,Toyota,Hilux Arctic Trucks AT38 (Series 3)
-2016,Toyota,Land Cruiser Arctic Trucks AT37 (Series 3)
-2016,Zenvo,TS1 (Series 3)
-1966,Jaguar,XJ13 (Jan 6)
-1993,Jaguar,XJ220S TWR (Jan 13)
-2018,Ferrari,FXX-K Evo (Jan 20)
-2018,Audi,TT RS (Jan 27)
-2016,NIO,EP9 (Series 4)
-2013,Wuling,Sunshine S (Series 4)
-2015,MG,MG3 (Series 4)
-2012,Porsche,911 GT3 RS 4.0 (Series 4)
-2010,Porsche,911 Sport Classic (Feb 3)
-1992,Mazda,323 GT-R (Feb 10)
-2021,Volkswagen,Golf R (Feb 17)
-2005,MG,XPower SV-R (Feb 24)
-2018,KTM,X-Bow GT4 (Series 5)
-2019,Toyota,4Runner TRD Pro (Series 5)
-2010,Noble,M600 (Series 5)
-2020,Nissan,GT-R NISMO (R35) (Series 5)
-1965,MINI,Cooper S Forza Edition (Series 5)
-1986,Ford,Mustang SVO (Mar 3)
-2020,Toyota,Tundra TRD Pro (Mar 10)
-2006,Noble,M400 (Mar 17)
-2017,Ferrari,#25 Corse Clienti 488 Challenge (Mar 24)
-2021,Ford,Mustang Mach-E 1400 (Drift Club)
-2012,Ascari,KZ1R (Series 6)
-2021,McLaren,765LT Coupe (Series 6)
-2018,ATS,GT (Series 6)
-2014,McLaren,650S Spider (Series 6)
-1966,Oldsmobile,Toronado (Mar 31)
-2021,McLaren,620R (Apr 7)
-2021,MINI,John Cooper Works GP (Apr 14)
-2019,Porsche,911 Speedster (Apr 21)
-2020,Ferrari,SF90 Stradale (Series 7)
-1962,Ferrari,250 GT Berlinetta Lusso (Series 7)
-2014,Ferrari,California T (Series 7)
-1992,Ferrari,512 TR (Series 7)
-2020,Ferrari,F8 Tributo (Series 7)
-2003,Ford,F-150 SVT Lightning (Apr 28)
-2014,Forsberg Racing,Nissan 'SafariZ' 370Z Safari Rally Tribute (May 5)
-2019,Toyota,Tacoma TRD Pro (May 12)
-2008,Dodge,Magnum SRT8 (May 19)
+1973,BMW,2002 Turbo,Barn Find
+1953,Chevrolet,Corvette,Barn Find
+1999,Dodge,Viper GTS ACR,Barn Find
+1968,Dodge,Dart HEMI Super Stock,Barn Find
+1989,Ferrari,F40 Competizione,Barn Find
+1962,Ferrari,250 GTO,Barn Find
+1968,Ford,Mustang GT 2+2 Fastback,Barn Find
+1967,Ford,Racing Escort Mk1,Barn Find
+1956,Ford,F-100,Barn Find
+1970,GMC,Jimmy,Barn Find
+1991,Jaguar,Sport XJR-15,Barn Find
+1973,Porsche,911 Carrera RS,Barn Find
+1968,Renault,4L Export,Barn Find
+1993,Toyota,#1 T100 Baja Truck,Barn Find
+2019,Lamborghini,Aventador SVJ,2
+2010,Ferrari,599 GTO,2
+2012,Lamborghini,Aventador J,2
+2012,Lamborghini,Gallardo LP 570-4 Spyder Performante,2
+1965,Peel,Trident,2
+2002,Ferrari,575M Maranello,2
+1939,Maserati,8CTF,2
+2017,Ferrari,J50,2,Dec 9
+2019,Ferrari,Monza SP2,2,Dec 16
+1973,Lamborghini,Espada 400 GT,2,Dec 23
+2020,Lamborghini,Huracan EVO,2,Dec 30
+2013,Donkervoort,D8 GTO,3
+1971,Ford,Mustang Mach 1,3
+2015,Jaguar,XKR-S GT,3
+1990,Vauxhall,Lotus Carlton,3
+2003,Toyota,Celica SS-I,3
+2007,Toyota,Hilux Arctic Trucks AT38,3
+2016,Toyota,Land Cruiser Arctic Trucks AT37,3
+2016,Zenvo,TS1,3
+1966,Jaguar,XJ13,3,Jan 6
+1993,Jaguar,XJ220S TWR,3,Jan 13
+2018,Ferrari,FXX-K Evo,3,Jan 20
+2018,Audi,TT RS,3,Jan 27
+2016,NIO,EP9,4
+2013,Wuling,Sunshine S,4
+2015,MG,MG3,4
+2012,Porsche,911 GT3 RS 4.0,4
+2010,Porsche,911 Sport Classic,4,Feb 3
+1992,Mazda,323 GT-R,4,Feb 10
+2021,Volkswagen,Golf R,4,Feb 17
+2005,MG,XPower SV-R,4,Feb 24
+2018,KTM,X-Bow GT4,5
+2019,Toyota,4Runner TRD Pro,5
+2010,Noble,M600,5
+2020,Nissan,GT-R NISMO (R35),5
+1965,MINI,Cooper S Forza Edition,5
+1986,Ford,Mustang SVO,5,Mar 3
+2020,Toyota,Tundra TRD Pro,5,Mar 10
+2006,Noble,M400,5,Mar 17
+2017,Ferrari,#25 Corse Clienti 488 Challenge,5,Mar 24
+2021,Ford,Mustang Mach-E 1400,Drift Club
+2012,Ascari,KZ1R,6
+2021,McLaren,765LT Coupe,6
+2018,ATS,GT,6
+2014,McLaren,650S Spider,6
+1966,Oldsmobile,Toronado,6,Mar 31
+2021,McLaren,620R,6,Apr 7
+2021,MINI,John Cooper Works GP,6,Apr 14
+2019,Porsche,911 Speedster,6,Apr 21
+2020,Ferrari,SF90 Stradale,7
+1962,Ferrari,250 GT Berlinetta Lusso,7
+2014,Ferrari,California T,7
+1992,Ferrari,512 TR,7
+2020,Ferrari,F8 Tributo,7
+2003,Ford,F-150 SVT Lightning,7,Apr 28
+2014,Forsberg Racing,Nissan 'SafariZ' 370Z Safari Rally Tribute,7,May 5
+2019,Toyota,Tacoma TRD Pro,7,May 12
+2008,Dodge,Magnum SRT8,7,May 19
