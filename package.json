@@ -26,7 +26,9 @@
     "test": "echo skipping...",
     "predeploy": "yarn version --patch",
     "deploy": "vc --prod",
-    "open": "open https://mock-fh5.vercel.app"
+    "open": "open https://mock-fh5.vercel.app",
+    "cars": "open https://mock-fh5.vercel.app/api/cars",
+    "solution": "open https://mock-fh5.vercel.app/api/solution"
   },
   "prettier": {
     "trailingComma": "es5",
