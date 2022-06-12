@@ -15,6 +15,6 @@ const filters = {
   ids,
 }
 
-module.exports = {
+export {
   filters,
 }

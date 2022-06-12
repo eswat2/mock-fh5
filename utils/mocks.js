@@ -1,7 +1,7 @@
 import Chance from 'chance'
 import vinGenerator from 'vin-generator'
 import shortid from 'shortid'
-import { filters } from './filters'
+import { filters } from './filters.js'
 
 const chance = new Chance()
 
@@ -152,7 +152,7 @@ const randomArray = (length, max) =>
     .fill()
     .map(() => Math.round(Math.random() * max))
 
-module.exports = {
+export {
   chance,
   colors,
   dataSet,

@@ -6,6 +6,7 @@
   "repository": "eswat2/mock-fh5",
   "license": "MIT",
   "private": true,
+  "type": "module",
   "dependencies": {
     "chance": "1.1.8",
     "fs": "0.0.1-security",

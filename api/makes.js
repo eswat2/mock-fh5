@@ -1,7 +1,7 @@
-const { fetchData } = require('../utils/fh5-data')
-const { filters } = require('../utils/filters')
+import { fetchData } from '../utils/fh5-data.js'
+import { filters } from '../utils/filters.js'
 
-module.exports = (req, res) => {
+export default (req, res) => {
   res.setHeader('Access-Control-Allow-Origin', '*')
   const callback = (data) => {
     const list = filters.makes(data)

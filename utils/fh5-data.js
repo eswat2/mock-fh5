@@ -15,6 +15,6 @@ const fetchData = (callback) => {
   })
 }
 
-module.exports = {
+export {
   fetchData,
 }

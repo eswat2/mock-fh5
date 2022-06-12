@@ -1,6 +1,6 @@
-const { colors, randomArray } = require('../utils/mocks')
+import { colors, randomArray } from '../utils/mocks.js'
 
-module.exports = (req, res) => {
+export default (req, res) => {
   const { count } = req.query
   const num = count ? parseInt(count) : 1
   const max = colors.length - 1

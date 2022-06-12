@@ -1,6 +1,6 @@
-const { fetchData } = require('../utils/fh5-data')
+import { fetchData } from '../utils/fh5-data.js'
 
-module.exports = (req, res) => {
+export default (req, res) => {
   res.setHeader('Access-Control-Allow-Origin', '*')
   const callback = (data) => {
     res.json(data)
