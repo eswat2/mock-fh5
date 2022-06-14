@@ -8,7 +8,27 @@ describe('solution', function () {
   const keys = ['id', 'data', 'summary']
   const tags = ['makes', 'vins', 'counts']
 
-  it(`should be an object... ${keys} & ${id}`, function (done) {
+  it(`should return an object... ${keys} & 42`, function (done) {
+    const callback = (data) => {
+      const solution = dataSet(data)
+      try {
+        expect(solution)
+          .to.be.a('object')
+          .that.contains.all.keys(...keys)
+        expect(solution.id).to.equal(42)
+        expect(solution.data).to.be.a('object').that.contains.all.keys('dealers')
+        expect(solution.summary)
+          .to.be.a('object')
+          .that.contains.all.keys(...tags)
+        done()
+      } catch (error) {
+        done(error)
+      }
+    }
+    fetchData(callback)
+  })
+
+  it(`should return an object... ${keys} & ${id}`, function (done) {
     const callback = (data) => {
       const solution = dataSet(data, id)
       try {
