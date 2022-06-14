@@ -85,7 +85,7 @@ const generateDealers = (data) => {
           make,
           model,
           year,
-          color
+          color,
         }
         return obj
       })
@@ -152,11 +152,4 @@ const randomArray = (length, max) =>
     .fill()
     .map(() => Math.round(Math.random() * max))
 
-export {
-  chance,
-  colors,
-  dataSet,
-  compare,
-  delay,
-  randomArray,
-}
+export { chance, colors, dataSet, compare, delay, randomArray }

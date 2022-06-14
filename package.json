@@ -16,16 +16,20 @@
     "vin-generator": "1.0.1"
   },
   "devDependencies": {
+    "chai": "4.3.6",
+    "cspell": "6.1.2",
+    "mocha": "10.0.0",
     "prettier": "2.7.0"
   },
   "scripts": {
     "sample": "node sample.mjs",
     "dev": "vc dev",
-    "cc": "prettier --check './**/*.js'",
-    "format": "prettier --write './**/*.js'",
+    "cc": "prettier --check api utils tests",
+    "format": "prettier --write api utils tests",
     "spell": "cspell './**/*.js'",
-    "test": "echo skipping...",
-    "predeploy": "yarn version --patch",
+    "test": "mocha ./tests/*.js",
+    "build": "yarn format",
+    "predeploy": "yarn test; yarn version --patch",
     "deploy": "vc --prod",
     "open": "open https://mock-fh5.vercel.app",
     "cars": "open https://mock-fh5.vercel.app/api/cars",

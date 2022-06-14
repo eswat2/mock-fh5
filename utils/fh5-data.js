@@ -10,11 +10,10 @@ const fetchData = (callback) => {
     header: true,
     dynamicTyping: true,
     complete: function (results) {
+      // console.log(results)
       callback(results.data)
     },
   })
 }
 
-export {
-  fetchData,
-}
+export { fetchData }

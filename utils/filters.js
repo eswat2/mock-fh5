@@ -15,6 +15,4 @@ const filters = {
   ids,
 }
 
-export {
-  filters,
-}
+export { filters }
