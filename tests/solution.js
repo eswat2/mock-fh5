@@ -1,5 +1,6 @@
 import { expect } from 'chai'
 import { fetchData } from '../utils/fh5-data.js'
+import { filters } from '../utils/filters.js'
 import { dataSet } from '../utils/mocks.js'
 
 const keys = ['id', 'data', 'summary']
@@ -22,6 +23,21 @@ const checkSolution = (solution, id) => {
   console.log('-- counts:', solution.summary.counts)
 }
 
+const fetchMakes = (done) => {
+  const callback = (data) => {
+    const list = filters.makes(data)
+    console.log('-- data:', data.length)
+    console.log('-- makes:', list.length)
+    try {
+      expect(list).to.be.a('array').that.have.lengthOf.above(2)
+      done()
+    } catch (error) {
+      done(error)
+    }
+  }
+  fetchData(callback)
+}
+
 const fetchSolution = (done, id) => {
   const callback = (data) => {
     const solution = id ? dataSet(data, id) : dataSet(data)
@@ -35,13 +51,23 @@ const fetchSolution = (done, id) => {
   fetchData(callback)
 }
 
-describe('solution', () => {
-  const id = 342
-  it(`should return an object... ${keys}`, (done) => {
-    fetchSolution(done)
+describe('data - forza horizon 5', () => {
+  describe('filters', () => {
+    describe('makes', () => {
+      it('should return an array...', (done) => {
+        fetchMakes(done)
+      })
+    })
   })
 
-  it(`should return an object... ${keys} & ${id}`, (done) => {
-    fetchSolution(done, id)
+  describe('solution', () => {
+    const id = 342
+    it(`should return an object... ${keys}`, (done) => {
+      fetchSolution(done)
+    })
+
+    it(`should return an object... ${keys} & ${id}`, (done) => {
+      fetchSolution(done, id)
+    })
   })
 })
