@@ -44,8 +44,10 @@ describe('mocks', () => {
     it(`should be ${count} items`, () => {
       expect(data.length).to.equal(count)
     })
-    data.map((item) => {
-      checkString(item)
+    describe('items', () => {
+      data.map((item) => {
+        checkString(item)
+      })
     })
   })
 
@@ -85,8 +87,10 @@ describe('mocks', () => {
     const data = randomArray(count, max)
     console.log('-- randomArray:', data.toString())
     checkArray(data, count)
-    data.map((item) => {
-      checkNumber(item, min, max)
+    describe('items', () => {
+      data.map((item) => {
+        checkNumber(item, min, max)
+      })
     })
   })
 
@@ -95,8 +99,10 @@ describe('mocks', () => {
     const data = chance.unique(vinGenerator.generateVin, count)
     console.log('-- vins:', data.toString())
     checkArray(data, count)
-    data.map((item) => {
-      checkString(item)
+    describe('items', () => {
+      data.map((item) => {
+        checkString(item)
+      })
     })
   })
 })
