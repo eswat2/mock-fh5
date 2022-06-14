@@ -2,13 +2,12 @@ import { expect } from 'chai'
 import { fetchData } from '../utils/fh5-data.js'
 import { dataSet } from '../utils/mocks.js'
 
-describe('solution', function () {
-  this.timeout(10000)
+describe('solution', () => {
   const id = 342
   const keys = ['id', 'data', 'summary']
   const tags = ['makes', 'vins', 'counts']
 
-  it(`should return an object... ${keys} & 42`, function (done) {
+  it(`should return an object... ${keys} & 42`, (done) => {
     const callback = (data) => {
       const solution = dataSet(data)
       try {
@@ -28,7 +27,7 @@ describe('solution', function () {
     fetchData(callback)
   })
 
-  it(`should return an object... ${keys} & ${id}`, function (done) {
+  it(`should return an object... ${keys} & ${id}`, (done) => {
     const callback = (data) => {
       const solution = dataSet(data, id)
       try {
