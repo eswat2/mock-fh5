@@ -6,18 +6,30 @@ import { dataSet } from '../utils/mocks.js'
 const keys = ['id', 'data', 'summary']
 const tags = ['makes', 'vins', 'counts']
 const sums = ['dealers', 'makes', 'vehicles']
+const dealerTags = ['id', 'dealerId', 'vehicles']
+const carTags = ['id', 'vin', 'make', 'model', 'year', 'color']
 
 const checkSolution = (solution, id) => {
   expect(solution)
     .to.be.a('object')
     .that.contains.all.keys(...keys)
+  const { data, summary } = solution
   expect(solution.id).to.equal(id)
   console.log('-- solution.id:', solution.id)
-  expect(solution.data).to.be.a('object').that.contains.all.keys('dealers')
-  expect(solution.summary)
+  expect(data).to.be.a('object').that.contains.all.keys('dealers')
+  const { dealers } = data
+  dealers.map(dealer => {
+    expect(dealer).to.be.a('object').that.contains.all.keys(...dealerTags)
+    const { vehicles } = dealer
+    vehicles.map(car => {
+      expect(car).to.be.a('object').that.contains.all.keys(...carTags)
+    })
+  })
+  expect(summary)
     .to.be.a('object')
     .that.contains.all.keys(...tags)
-  expect(solution.summary.counts)
+  const { counts } = summary
+  expect(counts)
     .to.be.a('object')
     .that.contains.all.keys(...sums)
   console.log('-- counts:', solution.summary.counts)
