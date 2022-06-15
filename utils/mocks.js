@@ -161,9 +161,7 @@ const api = {
     return indx.map((i) => colors[i])
   },
   vins: (count) =>
-    count
-      ? chance.unique(vinGenerator.generateVin, parseInt(count))
-      : vinGenerator.generateVin(),
+    count ? chance.unique(vinGenerator.generateVin, parseInt(count)) : vinGenerator.generateVin(),
 }
 
 export { chance, colors, dataSet, compare, delay, randomArray, api }
