@@ -1,4 +1,4 @@
-import { chance, colors, dataSet, compare, delay, randomArray } from '../utils/mocks.js'
+import { chance, colors, compare, delay, randomArray, api } from '../utils/mocks.js'
 import { expect } from 'chai'
 import vinGenerator from 'vin-generator'
 
@@ -102,6 +102,43 @@ describe('mocks', () => {
     describe('items', () => {
       data.map((item) => {
         checkString(item)
+      })
+    })
+  })
+})
+
+describe('api', () => {
+  const keys = ['colors', 'vins']
+  it(`should be an object... ${keys}`, () => {
+    expect(api)
+      .to.be.a('object')
+      .that.contains.all.keys(...keys)
+  })
+  keys.map((key) => {
+    describe(key, () => {
+      const counts = [2, 4, 8]
+      if (key === 'vins') {
+        it('should return a string by default', () => {
+          const data = api[key]()
+          expect(data).to.be.a('string')
+        })
+      } else {
+        it('should return an array by default', () => {
+          const data = api[key]()
+          expect(data).to.be.a('array')
+          data.map((item) => {
+            expect(item).to.be.a('string')
+          })
+        })
+      }
+      counts.map((count) => {
+        const data = api[key](count)
+        it(`should return an array, ${count} items`, () => {
+          expect(data).to.be.a('array').that.have.lengthOf(count)
+          data.map((item) => {
+            expect(item).to.be.a('string')
+          })
+        })
       })
     })
   })

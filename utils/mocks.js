@@ -152,4 +152,18 @@ const randomArray = (length, max) =>
     .fill()
     .map(() => Math.round(Math.random() * max))
 
-export { chance, colors, dataSet, compare, delay, randomArray }
+const api = {
+  colors: (count) => {
+    const num = count ? parseInt(count) : 1
+    const max = colors.length - 1
+    const indx = randomArray(num, max)
+
+    return indx.map((i) => colors[i])
+  },
+  vins: (count) =>
+    count
+      ? chance.unique(vinGenerator.generateVin, parseInt(count))
+      : vinGenerator.generateVin(),
+}
+
+export { chance, colors, dataSet, compare, delay, randomArray, api }
