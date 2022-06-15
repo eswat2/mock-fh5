@@ -18,11 +18,15 @@ const checkSolution = (solution, id) => {
   console.log('-- solution.id:', solution.id)
   expect(data).to.be.a('object').that.contains.all.keys('dealers')
   const { dealers } = data
-  dealers.map(dealer => {
-    expect(dealer).to.be.a('object').that.contains.all.keys(...dealerTags)
+  dealers.map((dealer) => {
+    expect(dealer)
+      .to.be.a('object')
+      .that.contains.all.keys(...dealerTags)
     const { vehicles } = dealer
-    vehicles.map(car => {
-      expect(car).to.be.a('object').that.contains.all.keys(...carTags)
+    vehicles.map((car) => {
+      expect(car)
+        .to.be.a('object')
+        .that.contains.all.keys(...carTags)
     })
   })
   expect(summary)
