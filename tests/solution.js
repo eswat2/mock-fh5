@@ -36,7 +36,7 @@ const checkSolution = (solution, id) => {
   expect(counts)
     .to.be.a('object')
     .that.contains.all.keys(...sums)
-  console.log('-- counts:', solution.summary.counts)
+  console.log('-- counts:', counts)
 }
 
 const fetchMakes = (done) => {
