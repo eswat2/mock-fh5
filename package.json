@@ -1,6 +1,6 @@
 {
   "name": "mock-fh5",
-  "version": "0.0.105",
+  "version": "0.0.106",
   "description": "prototype - simple REST api server with Forza Horizon 5 data...",
   "author": "eswat2",
   "repository": "eswat2/mock-fh5",
