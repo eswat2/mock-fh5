@@ -1,6 +1,6 @@
 import Chance from 'chance'
 import vinGenerator from 'vin-generator'
-import shortid from 'shortid'
+import { nanoid } from 'nanoid'
 import { filters } from './filters.js'
 
 const chance = new Chance()
@@ -80,7 +80,7 @@ const generateDealers = (data) => {
         const color = chance.pickone(colors)
         const { make, model, year } = data[indx]
         const obj = {
-          id: shortid.generate(),
+          id: nanoid(),
           vin,
           make,
           model,
@@ -92,7 +92,7 @@ const generateDealers = (data) => {
       .sort(fieldSorter(['-year', 'make', 'model']))
 
     const dealer = {
-      id: shortid.generate(),
+      id: nanoid(),
       dealerId: id,
       name: `${chance.name()} ${chance.pickone(dealerSuffix)}`,
       vehicles: cars,
