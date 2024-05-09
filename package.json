@@ -16,7 +16,7 @@
     "vin-generator": "1.0.1"
   },
   "devDependencies": {
-    "chai": "5.1.0",
+    "chai": "5.1.1",
     "cspell": "8.8.0",
     "mocha": "10.4.0",
     "prettier": "3.2.5"
