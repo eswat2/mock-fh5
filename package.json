@@ -11,7 +11,7 @@
     "chance": "1.1.12",
     "fs": "0.0.1-security",
     "nanoid": "5.0.9",
-    "papaparse": "5.5.0",
+    "papaparse": "5.5.1",
     "path": "0.12.7",
     "vin-generator": "1.0.1"
   },
