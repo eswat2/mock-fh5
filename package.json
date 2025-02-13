@@ -19,7 +19,7 @@
     "chai": "5.1.2",
     "cspell": "8.17.3",
     "mocha": "11.1.0",
-    "prettier": "3.5.0"
+    "prettier": "3.5.1"
   },
   "scripts": {
     "sample": "node sample.mjs",
