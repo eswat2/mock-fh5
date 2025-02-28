@@ -19,11 +19,12 @@
     "chai": "5.2.0",
     "cspell": "8.17.5",
     "mocha": "11.1.0",
-    "prettier": "3.5.2"
+    "prettier": "3.5.2",
+    "vercel": "41.3.0"
   },
   "scripts": {
     "sample": "node sample.mjs",
-    "dev": "vc dev",
+    "dev": "vc dev --port 8082",
     "cc": "prettier --check api utils tests",
     "format": "prettier --write api utils tests",
     "spell": "cspell './**/*.js'",
