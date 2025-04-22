@@ -21,7 +21,7 @@
     "env-cmd": "10.1.0",
     "mocha": "11.1.0",
     "prettier": "3.5.3",
-    "vercel": "41.6.1"
+    "vercel": "41.6.2"
   },
   "scripts": {
     "sample": "node sample.mjs",
