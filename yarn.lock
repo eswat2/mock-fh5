@@ -178,14 +178,14 @@
   integrity sha512-80mXJLtr0tVEtzowrI7ycVae/ULAYImZUlr0kUTpa8i57AUk7Zy3pYBs44EYIKW7ZC9AHu4Qjjfq4vriAtyTDQ==
 
 "@cspell/dict-en-gb-mit@^3.0.3":
-  version "3.0.3"
-  resolved "https://registry.yarnpkg.com/@cspell/dict-en-gb-mit/-/dict-en-gb-mit-3.0.3.tgz#f75f0cdddc36b96f5b9a38baed94d5b58160f425"
-  integrity sha512-usV5ddTBRTFCHoN9Swo1Vt9U4uPNRHS9oLtjOTWJtVj5O0OxJ+NxCXCZjjCm0afe6gw/GuvlnE4Ji7Vf53ObfQ==
+  version "3.0.4"
+  resolved "https://registry.yarnpkg.com/@cspell/dict-en-gb-mit/-/dict-en-gb-mit-3.0.4.tgz#78a30f5f93135f9c14d5ccd93db476eaf1508b3a"
+  integrity sha512-37CVABMyEesloy0OxZ/AR1eKYRe6UkTKx4DLwsMnAkqHJpvLYJTvCLQnCYtzcJ7jWLp3cCHr/w9U2E7CT/ST2g==
 
 "@cspell/dict-en_us@^4.4.6":
-  version "4.4.6"
-  resolved "https://registry.yarnpkg.com/@cspell/dict-en_us/-/dict-en_us-4.4.6.tgz#525072900db32c19da18edc92a1cb0d5775c423a"
-  integrity sha512-9QFpNzyvqNkCc3QCJb2RmG87rXz2Iz3R6o9fknOyzN7HL/LRMwipuksricriPYPs+h3ZSQm4Jtgc+sX4gWY5vg==
+  version "4.4.7"
+  resolved "https://registry.yarnpkg.com/@cspell/dict-en_us/-/dict-en_us-4.4.7.tgz#f2f910b19e4a83ac9a2a1674d8ea86b5efeb7fc8"
+  integrity sha512-hXyehIIeIAofy5LkF8PeMHqBhtNQ/qc5bQlDzxbAVB0+1FFcZlS8OUf+gHTQScDbPbVCTxXF9NB26vM+Px7mtw==
 
 "@cspell/dict-filetypes@^3.0.12":
   version "3.0.12"
@@ -223,9 +223,9 @@
   integrity sha512-C44M+m56rYn6QCsLbiKiedyPTMZxlDdEYAsPwwlL5bhMDDzXZ3Ic8OCQIhMbiunhCOJJT+er4URmOmM+sllnjg==
 
 "@cspell/dict-golang@^6.0.20":
-  version "6.0.20"
-  resolved "https://registry.yarnpkg.com/@cspell/dict-golang/-/dict-golang-6.0.20.tgz#6bfdae545ce7b62aa91b1b3bb988ab916392741c"
-  integrity sha512-b7nd9XXs+apMMzNSWorjirQsbmlwcTC0ViQJU8u+XNose3z0y7oNeEpbTPTVoN1+1sO9aOHuFwfwoOMFCDS14Q==
+  version "6.0.21"
+  resolved "https://registry.yarnpkg.com/@cspell/dict-golang/-/dict-golang-6.0.21.tgz#dc6fb7177cd99faa8bdebaecb22ec13570154424"
+  integrity sha512-D3wG1MWhFx54ySFJ00CS1MVjR4UiBVsOWGIjJ5Av+HamnguqEshxbF9mvy+BX0KqzdLVzwFkoLBs8QeOID56HA==
 
 "@cspell/dict-google@^1.0.8":
   version "1.0.8"
@@ -355,9 +355,9 @@
   integrity sha512-D/xHXX7T37BJxNRf5JJHsvziFDvh23IF/KvkZXNSh8VqcRdod3BAz9VGHZf6VDqcZXr1VRqIYR3mQ8DSvs3AVQ==
 
 "@cspell/dict-software-terms@^5.0.7":
-  version "5.0.7"
-  resolved "https://registry.yarnpkg.com/@cspell/dict-software-terms/-/dict-software-terms-5.0.7.tgz#b0dfc20774dfacd710d4821bedb4175f165f2ca4"
-  integrity sha512-6ttSc0/EzDN44DF2Bk/37cr3IntzuNcZ4MbUy/zEhfhDMiuQoXslILpAs/9FoKEuFpsm6A+8manT2GytWwr/HA==
+  version "5.0.8"
+  resolved "https://registry.yarnpkg.com/@cspell/dict-software-terms/-/dict-software-terms-5.0.8.tgz#baa277fabfc70f3d8453830e26628ee6df53fad9"
+  integrity sha512-VsJesitvaHZpMgNwHHms3yDsZz7LNToC2HuSAnyt1znn37ribiJF1ty0jWhVQO6fv7K4PM1KsKTJIwqBwc446g==
 
 "@cspell/dict-sql@^2.2.0":
   version "2.2.0"
@@ -657,10 +657,10 @@
     "@vercel/static-config" "3.0.0"
     ts-morph "12.0.0"
 
-"@vercel/next@4.7.9":
-  version "4.7.9"
-  resolved "https://registry.yarnpkg.com/@vercel/next/-/next-4.7.9.tgz#afc9b5e09adff302ce59a3e186fe0aa8d9480c69"
-  integrity sha512-zwm4IKrtWaBlPKU6isGwRg/+i/Do+QVdnXTRKaDeYnMAI703cysqOr1VE1rWBSJCzmUUOJkeJdXidBaMpGgRaw==
+"@vercel/next@4.7.10":
+  version "4.7.10"
+  resolved "https://registry.yarnpkg.com/@vercel/next/-/next-4.7.10.tgz#a7864418f0c6904ce3185c11d98be22819d79d77"
+  integrity sha512-IC3z3TbFpvaeZirPjk0E6eyB1XQqzEc2kLlN5kF9PPFHgcBL4ktEgnJanCg3RzOnRf2jc169MryD4DIErZ9OuA==
   dependencies:
     "@vercel/nft" "0.27.10"
 
@@ -2588,16 +2588,16 @@ v8-compile-cache-lib@^3.0.1:
   resolved "https://registry.yarnpkg.com/v8-compile-cache-lib/-/v8-compile-cache-lib-3.0.1.tgz#6336e8d71965cb3d35a1bbb7868445a7c05264bf"
   integrity sha512-wa7YjyUGfNZngI/vtK0UHAN+lgDCxBPCylVXGp0zu59Fz5aiGtNXaq3DhIov063MorB+VfufLh3JlF2KdTK3xg==
 
-vercel@41.7.0:
-  version "41.7.0"
-  resolved "https://registry.yarnpkg.com/vercel/-/vercel-41.7.0.tgz#d3fc13c35d62c6452f272a4f8824f11ff41cc9d3"
-  integrity sha512-71yoAOnzGzIBNTmsX3rfPKD03dSLA1cIu09rwulJDqARctfmJj8t+AmOC5jtpczOj7Z5HGgZMaLIrXrv220lcQ==
+vercel@41.7.2:
+  version "41.7.2"
+  resolved "https://registry.yarnpkg.com/vercel/-/vercel-41.7.2.tgz#3865a256377307697970b17ae596b881cdb599d8"
+  integrity sha512-XL62xOTXSU2AucAWWNrNaY98M6UQyzPCKMeaTTbAdk42bgcmiL/3GKyKJs0T+li0aFp7w4QPZyB/9+Ll0qRzEw==
   dependencies:
     "@vercel/build-utils" "10.5.1"
     "@vercel/fun" "1.1.5"
     "@vercel/go" "3.2.1"
     "@vercel/hydrogen" "1.2.0"
-    "@vercel/next" "4.7.9"
+    "@vercel/next" "4.7.10"
     "@vercel/node" "5.1.15"
     "@vercel/python" "4.7.2"
     "@vercel/redwood" "2.3.0"
