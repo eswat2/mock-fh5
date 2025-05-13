@@ -20,11 +20,11 @@
   },
   "devDependencies": {
     "chai": "5.2.0",
-    "cspell": "9.0.0",
+    "cspell": "9.0.1",
     "env-cmd": "10.1.0",
     "mocha": "11.2.2",
     "prettier": "3.5.3",
-    "vercel": "41.7.2"
+    "vercel": "41.7.4"
   },
   "scripts": {
     "sample": "node sample.mjs",
