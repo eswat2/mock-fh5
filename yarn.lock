@@ -106,9 +106,9 @@
   integrity sha512-sD8GCaZetgQL4+MaJLXqbzWcRjfKVp8x+px3HuCaaiATAAtvjwUQ5/Iubiqwfd1boIh2Y1/3EgM3TLQ7Q8e0wQ==
 
 "@cspell/dict-aws@^4.0.12":
-  version "4.0.13"
-  resolved "https://registry.yarnpkg.com/@cspell/dict-aws/-/dict-aws-4.0.13.tgz#586fad3afe8d75a23fdce0f5154561176e163988"
-  integrity sha512-i/9wTGC02EJn740F3CuiGM5qI6kbDr5xPGXUoCQsScr0nWNBljscO7Ko8ZrahXg1uBj3+A1WWxqceh1fqF52Ng==
+  version "4.0.14"
+  resolved "https://registry.yarnpkg.com/@cspell/dict-aws/-/dict-aws-4.0.14.tgz#80c81765ebea0e9b755326d281af084b282a4f7e"
+  integrity sha512-qLPR+OFmpzyUcuUYyCQFIURDDUGIlQsdGirPyvaIrXxs2giCKG97cAuFz5EleL3/Lo7uJAVDw0lt4Ka7wIRhjQ==
 
 "@cspell/dict-bash@^4.2.1":
   version "4.2.1"
@@ -118,9 +118,9 @@
     "@cspell/dict-shell" "1.1.1"
 
 "@cspell/dict-companies@^3.2.2":
-  version "3.2.2"
-  resolved "https://registry.yarnpkg.com/@cspell/dict-companies/-/dict-companies-3.2.2.tgz#0b018c0a9fb87e9cdd9ec37f4902552651b4eabb"
-  integrity sha512-iIuEBPfWzSQugIOn+OKOVsdfE9UloON5SKl57TbvC//D5mgIwPAMZGYT69yv20cjc5E6oMu353hCV3WFy9XO9A==
+  version "3.2.3"
+  resolved "https://registry.yarnpkg.com/@cspell/dict-companies/-/dict-companies-3.2.3.tgz#7b4eb9d9122ccd7379ed221d74433b6011327748"
+  integrity sha512-7ekwamRYeS7G3I3LEKM3t0WIyAytCbsx2I2h2z2eEvF+b3TmtJVcV7UI7BScLue3bep4sPB/b4CV3BUv3QfyzQ==
 
 "@cspell/dict-cpp@^6.0.9":
   version "6.0.9"
@@ -303,9 +303,9 @@
   integrity sha512-AirZcN2i84ynev3p2/1NCPEhnNsHKMz9zciTngGoqpdItUb2bDt1nJBjwlsrFI78GZRph/VaqTVFwYikmncpXg==
 
 "@cspell/dict-npm@^5.2.12":
-  version "5.2.12"
-  resolved "https://registry.yarnpkg.com/@cspell/dict-npm/-/dict-npm-5.2.12.tgz#0dc86927dae5148155a7a15e6ab2a8ef6fd4f154"
-  integrity sha512-f5xcEl6+JZCFvDCOKJJuKv1ZMOzq9sBg/7y/iuqkBOgjeGDdB+PSrOJWk2jqu3PzXjjX39KJkt7mRUzv8Mrh1g==
+  version "5.2.13"
+  resolved "https://registry.yarnpkg.com/@cspell/dict-npm/-/dict-npm-5.2.13.tgz#f7768b895122cc8c2d2b0b33bbefbeb514f4d44c"
+  integrity sha512-yE7DfpiQjDFW6TLr5/fsSj4BlUy1A8lsuz2LQQHv4lQAAkZ4RsePYFL9DkRRfEtxn8CZYetUnU74/jQbfsnyrA==
 
 "@cspell/dict-php@^4.0.15":
   version "4.0.15"
@@ -728,10 +728,10 @@
     typescript "4.9.5"
     undici "5.28.4"
 
-"@vercel/python@4.8.0":
-  version "4.8.0"
-  resolved "https://registry.yarnpkg.com/@vercel/python/-/python-4.8.0.tgz#fd6ced586074ec75126a2b313a4706152de20254"
-  integrity sha512-1ckvoGu4uEovbLRQgUACXrmANwuPSfZnAHYs5TX2RwNMSY63Y7fpnEyeq2y1cenzoj7NoG2xO+cZJRsxsfMmfQ==
+"@vercel/python@5.0.0":
+  version "5.0.0"
+  resolved "https://registry.yarnpkg.com/@vercel/python/-/python-5.0.0.tgz#7baff2e4294a87226f1e55ec003235141319a0cb"
+  integrity sha512-JHpYKQ8d478REzmF7NcJTJcncFziJhVOwzan8wW4F1RJOHGDBTPkATAgi4CPQIijToRamPCkgeECzNOvLUDR+w==
 
 "@vercel/redwood@2.3.4":
   version "2.3.4"
@@ -2572,10 +2572,10 @@ v8-compile-cache-lib@^3.0.1:
   resolved "https://registry.yarnpkg.com/v8-compile-cache-lib/-/v8-compile-cache-lib-3.0.1.tgz#6336e8d71965cb3d35a1bbb7868445a7c05264bf"
   integrity sha512-wa7YjyUGfNZngI/vtK0UHAN+lgDCxBPCylVXGp0zu59Fz5aiGtNXaq3DhIov063MorB+VfufLh3JlF2KdTK3xg==
 
-vercel@44.6.3:
-  version "44.6.3"
-  resolved "https://registry.yarnpkg.com/vercel/-/vercel-44.6.3.tgz#37347da8e7282860a33564f33223d4731c7e6917"
-  integrity sha512-2E0AQWf3VeRGxiRXCjjmZFZAlosBhW2UPS+2tFHgHgoBaChKZ0r8+4+DONTc+pYKXqVcybdLuNgfJSwkZeuvOA==
+vercel@44.6.4:
+  version "44.6.4"
+  resolved "https://registry.yarnpkg.com/vercel/-/vercel-44.6.4.tgz#7fb7d4e992a2b54b078500f857204e03c4cc4409"
+  integrity sha512-BfZelATWvXMhjta0LgaUU+HTB3YOk1a3iCuRkJwPDRB8SIKjCgIJSRNA3lzW/sDswpVGb3ZxWo4HLp9TYERM1w==
   dependencies:
     "@vercel/blob" "1.0.2"
     "@vercel/build-utils" "11.0.0"
@@ -2585,7 +2585,7 @@ vercel@44.6.3:
     "@vercel/hydrogen" "1.2.3"
     "@vercel/next" "4.10.8"
     "@vercel/node" "5.3.7"
-    "@vercel/python" "4.8.0"
+    "@vercel/python" "5.0.0"
     "@vercel/redwood" "2.3.4"
     "@vercel/remix-builder" "5.4.10"
     "@vercel/ruby" "2.2.1"
