@@ -178,19 +178,19 @@
   integrity sha512-CyfphrbMyl4Ms55Vzuj+mNmd693HjBFr9hvU+B2YbFEZprE5AG+EXLYTMRWrXbpds4AuZcvN3deM2XVB80BN/Q==
 
 "@cspell/dict-en-common-misspellings@^2.1.5":
-  version "2.1.5"
-  resolved "https://registry.yarnpkg.com/@cspell/dict-en-common-misspellings/-/dict-en-common-misspellings-2.1.5.tgz#b98c766a48b3e6713ed27f97d89e0b43468ed920"
-  integrity sha512-hlRDSjul7wGTDXeLBADoyTGIZjWWZn6/SP+pt0lG3PRtqF0MWH/QEDgUkS+Yev7ZhHCHVLvwBZtDxOd1uw06Tw==
+  version "2.1.6"
+  resolved "https://registry.yarnpkg.com/@cspell/dict-en-common-misspellings/-/dict-en-common-misspellings-2.1.6.tgz#dcbeabb2e7728d0b53f261ccb8acdda2b429ac50"
+  integrity sha512-xV9yryOqZizbSqxRS7kSVRrxVEyWHUqwdY56IuT7eAWGyTCJNmitXzXa4p+AnEbhL+AB2WLynGVSbNoUC3ceFA==
 
 "@cspell/dict-en-gb-mit@^3.1.8":
-  version "3.1.8"
-  resolved "https://registry.yarnpkg.com/@cspell/dict-en-gb-mit/-/dict-en-gb-mit-3.1.8.tgz#c0486179da322b458ce8589cd955f5d99413bbe8"
-  integrity sha512-wrZDRl6TKd1wReepGDPuT1JNbnRjHLvtAVrozp0DUkFlcDgnrB+YSd/Ne4aKnkXl5qpyVQ2GG7a4Z7INKCX+fw==
+  version "3.1.9"
+  resolved "https://registry.yarnpkg.com/@cspell/dict-en-gb-mit/-/dict-en-gb-mit-3.1.9.tgz#488f3058f11a69378c043cb294d01207b7880ebd"
+  integrity sha512-1lSnphnHTOxnpNLpPLg1XXv8df3hs4oL0LJ6dkQ0IqNROl8Jzl6PD55BDTlKy4YOAA76dJlePB0wyrxB+VVKbg==
 
 "@cspell/dict-en_us@^4.4.18":
-  version "4.4.18"
-  resolved "https://registry.yarnpkg.com/@cspell/dict-en_us/-/dict-en_us-4.4.18.tgz#ac91ef3d1d618a920e2e912836134330956225f2"
-  integrity sha512-6Le961Q0AIfVp3nKuSJJD/9NfnTYA1N/MLAaeWKCABEvhzhopeyGrykwejd0SA4m64WBUNEfSlsgselYWoDSjQ==
+  version "4.4.19"
+  resolved "https://registry.yarnpkg.com/@cspell/dict-en_us/-/dict-en_us-4.4.19.tgz#8b1b5c54f06c18d050c2431b68555e69fbfdf8eb"
+  integrity sha512-JYYgzhGqSGuIMNY1cTlmq3zrNpehrExMHqLmLnSM2jEGFeHydlL+KLBwBYxMy4e73w+p1+o/rmAiGsMj9g3MCw==
 
 "@cspell/dict-filetypes@^3.0.13":
   version "3.0.13"
@@ -308,9 +308,9 @@
   integrity sha512-AirZcN2i84ynev3p2/1NCPEhnNsHKMz9zciTngGoqpdItUb2bDt1nJBjwlsrFI78GZRph/VaqTVFwYikmncpXg==
 
 "@cspell/dict-npm@^5.2.15":
-  version "5.2.15"
-  resolved "https://registry.yarnpkg.com/@cspell/dict-npm/-/dict-npm-5.2.15.tgz#19754434cae3cfd5d4ebd9253c3707915b0211bf"
-  integrity sha512-kb9oX/N5FUlJYoqc5G+tIP/0SolteFMz2VhOVKG2qiXUS/1AybVTjUEo4gZ4uEveUhLzUDcfpZbn40EoUVBVrg==
+  version "5.2.17"
+  resolved "https://registry.yarnpkg.com/@cspell/dict-npm/-/dict-npm-5.2.17.tgz#6f2e2f5ae614bc7299aaeeb90cc92dc09ec43f55"
+  integrity sha512-0yp7lBXtN3CtxBrpvTu/yAuPdOHR2ucKzPxdppc3VKO068waZNpKikn1NZCzBS3dIAFGVITzUPtuTXxt9cxnSg==
 
 "@cspell/dict-php@^4.0.15":
   version "4.0.15"
@@ -360,9 +360,9 @@
   integrity sha512-T37oYxE7OV1x/1D4/13Y8JZGa1QgDCXV7AVt3HLXjn0Fe3TaNDvf5sU0fGnXKmBPqFFrHdpD3uutAQb1dlp15g==
 
 "@cspell/dict-software-terms@^5.1.7":
-  version "5.1.7"
-  resolved "https://registry.yarnpkg.com/@cspell/dict-software-terms/-/dict-software-terms-5.1.7.tgz#4b90f56171948fb672a1f9fa8deda8d2c4f17dfa"
-  integrity sha512-CfNFQCVx8R/D8RfFdFTwSjDvXcSXY0tO+VN2N6TEbNTL1GCmqyzhwm4YI+ZbO3MUmMAMjwu9jZyoLk5BaJkXcg==
+  version "5.1.8"
+  resolved "https://registry.yarnpkg.com/@cspell/dict-software-terms/-/dict-software-terms-5.1.8.tgz#404e01f5bfa55494026e9f01aa60f5bf21f71884"
+  integrity sha512-iwCHLP11OmVHEX2MzE8EPxpPw7BelvldxWe5cJ3xXIDL8TjF2dBTs2noGcrqnZi15SLYIlO8897BIOa33WHHZA==
 
 "@cspell/dict-sql@^2.2.1":
   version "2.2.1"
@@ -780,10 +780,10 @@
   resolved "https://registry.yarnpkg.com/@vercel/ruby/-/ruby-2.2.1.tgz#c36ba0568531f30193479d2442177201142fbadb"
   integrity sha512-DsmTCggOa/Uvt/9JkafXx9U+Bz5eNIb6Bs422EOQo2zKwcxW88ITSh8mM5m0dQ0+B4k02X/moVim6iFa4sjazg==
 
-"@vercel/static-build@2.7.22":
-  version "2.7.22"
-  resolved "https://registry.yarnpkg.com/@vercel/static-build/-/static-build-2.7.22.tgz#419098e12f2d95146ab70fa92d4d60a0afe1742d"
-  integrity sha512-yge21I8KHCvqkFwD6TCOM+POrJP3AvyulvzAYK6IyGeH5ngO5RwYwX9kbe6hidWaVuuSfboJt6CAgxp0LIsEgA==
+"@vercel/static-build@2.7.23":
+  version "2.7.23"
+  resolved "https://registry.yarnpkg.com/@vercel/static-build/-/static-build-2.7.23.tgz#761896bde9ddbf2d38c0a7102502f9dd210eb8b2"
+  integrity sha512-F9u6FGWShfHbhldA9nRW6FdHfM7nVESYVGg+XOuWUlnyHnN6HiOFAze8wCb5yOuF5XXlp3bpn2IUByy4CPnjHQ==
   dependencies:
     "@vercel/gatsby-plugin-vercel-analytics" "1.0.11"
     "@vercel/gatsby-plugin-vercel-builder" "2.0.95"
@@ -842,9 +842,9 @@ ansi-regex@^5.0.1:
   integrity sha512-quJQXlTSUGL2LH9SUXo8VwsY4soanhgo6LNSm84E1LBcE8s3O0wpdiRzyR9z/ZZJMlMWv37qOOb9pdJlMUEKFQ==
 
 ansi-regex@^6.0.1:
-  version "6.2.0"
-  resolved "https://registry.yarnpkg.com/ansi-regex/-/ansi-regex-6.2.0.tgz#2f302e7550431b1b7762705fffb52cf1ffa20447"
-  integrity sha512-TKY5pyBkHyADOPYlRT9Lx6F544mPl0vS5Ew7BJ45hA08Q+t3GjbueLliBWN3sMICk6+y7HdyxSzC4bWS8baBdg==
+  version "6.2.2"
+  resolved "https://registry.yarnpkg.com/ansi-regex/-/ansi-regex-6.2.2.tgz#60216eea464d864597ce2832000738a0589650c1"
+  integrity sha512-Bq3SmSpyFHaWjPk8If9yc6svM8c56dB5BAtW4Qbw5jHTwwXXcTLoRMkpDJp6VL0XzlWaCHTXrkFURMYmD0sLqg==
 
 ansi-styles@^4.0.0, ansi-styles@^4.1.0:
   version "4.3.0"
@@ -854,9 +854,9 @@ ansi-styles@^4.0.0, ansi-styles@^4.1.0:
     color-convert "^2.0.1"
 
 ansi-styles@^6.1.0:
-  version "6.2.1"
-  resolved "https://registry.yarnpkg.com/ansi-styles/-/ansi-styles-6.2.1.tgz#0e62320cf99c21afff3b3012192546aacbfb05c5"
-  integrity sha512-bN798gFfQX+viw3R7yrGWRqnrN2oRkEkUjjl4JNn4E8GxxbjtG3FbrEIIY3l8/hrwUwIeCZvi4QuOTP4MErVug==
+  version "6.2.3"
+  resolved "https://registry.yarnpkg.com/ansi-styles/-/ansi-styles-6.2.3.tgz#c044d5dcc521a076413472597a1acb1f103c4041"
+  integrity sha512-4Dj6M28JB+oAH8kFkTLUo+a2jwOFkuqb3yucU0CANcRRUbxS0cP0nZYCGjcc3BNXwRIsUVmDGgzawme7zvJHvg==
 
 any-promise@^1.1.0, any-promise@~1.3.0:
   version "1.3.0"
@@ -975,9 +975,9 @@ chai@6.0.1:
   integrity sha512-/JOoU2//6p5vCXh00FpNgtlw0LjvhGttaWc+y7wpW9yjBm3ys0dI8tSKZxIOgNruz5J0RleccatSIC3uxEZP0g==
 
 chalk-template@^1.1.0:
-  version "1.1.0"
-  resolved "https://registry.yarnpkg.com/chalk-template/-/chalk-template-1.1.0.tgz#ffc55db6dd745e9394b85327c8ac8466edb7a7b1"
-  integrity sha512-T2VJbcDuZQ0Tb2EWwSotMPJjgpy1/tGee1BTpUNsGZ/qgNjV2t7Mvu+d4600U564nbLesN1x2dPL+xii174Ekg==
+  version "1.1.2"
+  resolved "https://registry.yarnpkg.com/chalk-template/-/chalk-template-1.1.2.tgz#88ff13e75a333d232304e13abc48c5b5be15f1ce"
+  integrity sha512-2bxTP2yUH7AJj/VAXfcA+4IcWGdQ87HwBANLt5XxGTeomo8yG0y95N1um9i5StvhT/Bl0/2cARA5v1PpPXUxUA==
   dependencies:
     chalk "^5.2.0"
 
@@ -990,9 +990,9 @@ chalk@^4.1.0:
     supports-color "^7.1.0"
 
 chalk@^5.2.0, chalk@^5.6.0:
-  version "5.6.0"
-  resolved "https://registry.yarnpkg.com/chalk/-/chalk-5.6.0.tgz#a1a8d294ea3526dbb77660f12649a08490e33ab8"
-  integrity sha512-46QrSQFyVSEyYAgQ22hQ+zDa60YHA4fBstHmtSApj1Y5vKtG27fWowW03jCk5KcbXEWPZUIR894aARCA/G1kfQ==
+  version "5.6.2"
+  resolved "https://registry.yarnpkg.com/chalk/-/chalk-5.6.2.tgz#b1238b6e23ea337af71c7f8a295db5af0c158aea"
+  integrity sha512-7NzBL0rN6fMUW+f7A6Io4h40qQlG+xGmtMxfbnH/K7TAtt8JQWVQK+6g0UXKMeVJoyV5EkkNsErQ8pVD3bLHbA==
 
 chance@1.1.13:
   version "1.1.13"
@@ -1529,7 +1529,7 @@ fd-slicer@~1.1.0:
   dependencies:
     pend "~1.2.0"
 
-fdir@^6.4.4:
+fdir@^6.5.0:
   version "6.5.0"
   resolved "https://registry.yarnpkg.com/fdir/-/fdir-6.5.0.tgz#ed2ab967a331ade62f18d077dae192684d50d350"
   integrity sha512-tIbYtZbucOs0BRGqPJkshJUYdL+SDH7dVM8gjy+ERp3WAUjLEFJE+02kanyHtwjWOnwrKYBiwAmM0p4kLJAnXg==
@@ -2393,9 +2393,9 @@ strip-ansi@^6.0.0, strip-ansi@^6.0.1:
     ansi-regex "^5.0.1"
 
 strip-ansi@^7.0.1:
-  version "7.1.0"
-  resolved "https://registry.yarnpkg.com/strip-ansi/-/strip-ansi-7.1.0.tgz#d5b6568ca689d8561370b0707685d22434faff45"
-  integrity sha512-iq6eVVI64nQQTRYq2KtEg2d2uU7LElhTJwsH4YzIHZshxlgZms/wIc4VoDQTlG/IvVIrBKG06CrZnp0qv7hkcQ==
+  version "7.1.2"
+  resolved "https://registry.yarnpkg.com/strip-ansi/-/strip-ansi-7.1.2.tgz#132875abde678c7ea8d691533f2e7e22bb744dba"
+  integrity sha512-gmBGslpoQJtgnMAvOVqGZpEz9dyoKTCzy2nfz/n8aIFhN/jCE/rCmcxabB6jOOHV+0WNnylOxaxBQPSvcWklhA==
   dependencies:
     ansi-regex "^6.0.1"
 
@@ -2460,12 +2460,12 @@ tinyexec@0.3.2:
   integrity sha512-KQQR9yN7R5+OSwaK0XQoj22pwHoTlgYqmUscPYoknOoWCWfj/5/ABTMRi69FrKU5ffPVh5QcFikpWJI/P1ocHA==
 
 tinyglobby@^0.2.14:
-  version "0.2.14"
-  resolved "https://registry.yarnpkg.com/tinyglobby/-/tinyglobby-0.2.14.tgz#5280b0cf3f972b050e74ae88406c0a6a58f4079d"
-  integrity sha512-tX5e7OM1HnYr2+a2C/4V0htOcSQcoSTH9KgJnVvNm5zm/cyEWKJ7j7YutsH9CxMdtOkkLFy2AHrMci9IM8IPZQ==
+  version "0.2.15"
+  resolved "https://registry.yarnpkg.com/tinyglobby/-/tinyglobby-0.2.15.tgz#e228dd1e638cea993d2fdb4fcd2d4602a79951c2"
+  integrity sha512-j2Zq4NyQYG5XMST4cbs02Ak8iJUdxRM0XI5QyxXuZOzKOINmWurp3smXu3y5wDcJrptwpSjgXHzIQxR0omXljQ==
   dependencies:
-    fdir "^6.4.4"
-    picomatch "^4.0.2"
+    fdir "^6.5.0"
+    picomatch "^4.0.3"
 
 to-regex-range@^5.0.1:
   version "5.0.1"
@@ -2574,10 +2574,10 @@ v8-compile-cache-lib@^3.0.1:
   resolved "https://registry.yarnpkg.com/v8-compile-cache-lib/-/v8-compile-cache-lib-3.0.1.tgz#6336e8d71965cb3d35a1bbb7868445a7c05264bf"
   integrity sha512-wa7YjyUGfNZngI/vtK0UHAN+lgDCxBPCylVXGp0zu59Fz5aiGtNXaq3DhIov063MorB+VfufLh3JlF2KdTK3xg==
 
-vercel@47.0.5:
-  version "47.0.5"
-  resolved "https://registry.yarnpkg.com/vercel/-/vercel-47.0.5.tgz#2e6c442346a67989b7bccb52f36907c82d8c8386"
-  integrity sha512-KFkIxuSt0Gcl8IrhSb6epxU+IWe2L6UBW68RwSEH6peAfBO4PPV788ANQVRmziqxem8ag4f96QfIqvS8EgT2rQ==
+vercel@47.0.6:
+  version "47.0.6"
+  resolved "https://registry.yarnpkg.com/vercel/-/vercel-47.0.6.tgz#92e2dc5e6f3f30ecb20b9380abe991e4bcab3781"
+  integrity sha512-oHYLH8FunvFS91JXER/7K1HhE5GIMCA3IAloGx2oMtzdmExo+NIobXGe0Zlbsg4cAG7yOmvCRMds6RfAxOs+ng==
   dependencies:
     "@vercel/blob" "1.0.2"
     "@vercel/build-utils" "12.1.0"
@@ -2593,7 +2593,7 @@ vercel@47.0.5:
     "@vercel/redwood" "2.3.6"
     "@vercel/remix-builder" "5.4.12"
     "@vercel/ruby" "2.2.1"
-    "@vercel/static-build" "2.7.22"
+    "@vercel/static-build" "2.7.23"
     chokidar "4.0.0"
     jose "5.9.6"
 
