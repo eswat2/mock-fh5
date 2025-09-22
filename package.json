@@ -13,7 +13,7 @@
   "dependencies": {
     "chance": "1.1.13",
     "fs": "0.0.1-security",
-    "nanoid": "5.1.5",
+    "nanoid": "5.1.6",
     "papaparse": "5.5.3",
     "path": "0.12.7",
     "vin-generator": "1.0.1"
