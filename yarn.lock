@@ -214,9 +214,9 @@
   integrity sha512-imhs0u87wEA4/cYjgzS0tAyaJpwG7vwtC8UyMFbwpmtw+/bgss+osNfyqhYRyS/ehVCWL17Ewx2UPkexjKyaBA==
 
 "@cspell/dict-fullstack@^3.2.7":
-  version "3.2.7"
-  resolved "https://registry.yarnpkg.com/@cspell/dict-fullstack/-/dict-fullstack-3.2.7.tgz#b5cc10c8e93093b124811a3af8d7169e52133723"
-  integrity sha512-IxEk2YAwAJKYCUEgEeOg3QvTL4XLlyArJElFuMQevU1dPgHgzWElFevN5lsTFnvMFA1riYsVinqJJX0BanCFEg==
+  version "3.2.8"
+  resolved "https://registry.yarnpkg.com/@cspell/dict-fullstack/-/dict-fullstack-3.2.8.tgz#8ae90638263bc16cfeccac41c97d8a8c65ad2f29"
+  integrity sha512-J6EeoeThvx/DFrcA2rJiCA6vfqwJMbkG0IcXhlsmRZmasIpanmxgt90OEaUazbZahFiuJT8wrhgQ1QgD1MsqBw==
 
 "@cspell/dict-gaming-terms@^1.1.2":
   version "1.1.2"
@@ -224,9 +224,9 @@
   integrity sha512-9XnOvaoTBscq0xuD6KTEIkk9hhdfBkkvJAIsvw3JMcnp1214OCGW8+kako5RqQ2vTZR3Tnf3pc57o7VgkM0q1Q==
 
 "@cspell/dict-git@^3.0.7":
-  version "3.0.7"
-  resolved "https://registry.yarnpkg.com/@cspell/dict-git/-/dict-git-3.0.7.tgz#382093019e8fa446f5cf2b347a9aef1cf7a30316"
-  integrity sha512-odOwVKgfxCQfiSb+nblQZc4ErXmnWEnv8XwkaI4sNJ7cNmojnvogYVeMqkXPjvfrgEcizEEA4URRD2Ms5PDk1w==
+  version "3.1.0"
+  resolved "https://registry.yarnpkg.com/@cspell/dict-git/-/dict-git-3.1.0.tgz#7ac48114425c74e0a1c00f154138cf81b04f250b"
+  integrity sha512-KEt9zGkxqGy2q1nwH4CbyqTSv5nadpn8BAlDnzlRcnL0Xb3LX9xTgSGShKvzb0bw35lHoYyLWN2ZKAqbC4pgGQ==
 
 "@cspell/dict-golang@^6.0.26":
   version "6.0.26"
@@ -304,14 +304,14 @@
   integrity sha512-MN7Vs11TdP5mbdNFQP5x2Ac8zOBm97ARg6zM5Sb53YQt/eMvXOMvrep7+/+8NJXs0jkp70bBzjqU4APcqBFNAw==
 
 "@cspell/dict-node@^5.0.8":
-  version "5.0.8"
-  resolved "https://registry.yarnpkg.com/@cspell/dict-node/-/dict-node-5.0.8.tgz#5c732e6d9a71a8c857456abc26be2ee836cb720e"
-  integrity sha512-AirZcN2i84ynev3p2/1NCPEhnNsHKMz9zciTngGoqpdItUb2bDt1nJBjwlsrFI78GZRph/VaqTVFwYikmncpXg==
+  version "5.0.9"
+  resolved "https://registry.yarnpkg.com/@cspell/dict-node/-/dict-node-5.0.9.tgz#ca894e62b85deaf2f55e9d9c86fdbb260ba923eb"
+  integrity sha512-hO+ga+uYZ/WA4OtiMEyKt5rDUlUyu3nXMf8KVEeqq2msYvAPdldKBGH7lGONg6R/rPhv53Rb+0Y1SLdoK1+7wQ==
 
 "@cspell/dict-npm@^5.2.29":
-  version "5.2.29"
-  resolved "https://registry.yarnpkg.com/@cspell/dict-npm/-/dict-npm-5.2.29.tgz#42996949c9d4b7a9406cd1bd7195811d7f5b685a"
-  integrity sha512-ZAef8JpYmbuHFT1zekj/YyImLPvZevjECw663EmG5GPePyNo4AfH8Dd2fFhaOyQ3P5I5LrkAhGwypnOfUxcssw==
+  version "5.2.30"
+  resolved "https://registry.yarnpkg.com/@cspell/dict-npm/-/dict-npm-5.2.30.tgz#bb1ac698b28a7d5c405e694baa015ec8fa21c8f1"
+  integrity sha512-GHgl3wAkoi87y3AXE1Bogwt0wHCB3uydOx6p8ujjXg9Ba9twlOK2SzD6LrClHoWrnADuGZZIxLnesDA6GtlH4w==
 
 "@cspell/dict-php@^4.1.1":
   version "4.1.1"
@@ -1033,10 +1033,10 @@
     srvx "0.8.9"
     tsx "4.21.0"
 
-"@vercel/detect-agent@1.0.0":
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/@vercel/detect-agent/-/detect-agent-1.0.0.tgz#acbfb2214fd8628dcc76c47ed62fdb10c893d25c"
-  integrity sha512-AIPgNkmtFcDgPCl+xvTT1ga90OL7OTX2RKM4zu0PMpwBthPfN2DpdHy10n3bh8K+CA22GDU0/ncjzprZsrk0sw==
+"@vercel/detect-agent@1.1.0":
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/@vercel/detect-agent/-/detect-agent-1.1.0.tgz#395980350942dad1125bb19cacc73c58de8921c1"
+  integrity sha512-Zfq6FbIcYl9gaAmVu6ROsqUiCNwpEj3Ljz/tMX5fl12Z95OFOxzf7vlO03WE5JBU/ri1tBDFHnW41dihMINOPQ==
 
 "@vercel/elysia@0.1.26":
   version "0.1.26"
@@ -1227,10 +1227,10 @@
     typescript5 "npm:typescript@5.9.3"
     undici "5.28.4"
 
-"@vercel/python@6.3.0":
-  version "6.3.0"
-  resolved "https://registry.yarnpkg.com/@vercel/python/-/python-6.3.0.tgz#787463fa98bacf45f34ae3a594091e981bac2d80"
-  integrity sha512-2Cmmet1087W39ENgm0VeEG87fwsOHNi1nFGGRPn6jNE5XEWJR0/dafkhRp77My0qbUxsG6F7Xg3+7hrRX4RAYA==
+"@vercel/python@6.3.1":
+  version "6.3.1"
+  resolved "https://registry.yarnpkg.com/@vercel/python/-/python-6.3.1.tgz#8fa66be76410635ce9b6d7599a388d96e7475e49"
+  integrity sha512-GpScOs86aq/o1dBn6ypxodM4Si39VedZ6sRSegZIYppu/GNjCHldo7+3Tx0cykQK8KW3yH3ruxp01qK6Qv0OcQ==
 
 "@vercel/redwood@2.4.9":
   version "2.4.9"
@@ -3313,15 +3313,15 @@ v8-compile-cache-lib@^3.0.1:
   resolved "https://registry.yarnpkg.com/v8-compile-cache-lib/-/v8-compile-cache-lib-3.0.1.tgz#6336e8d71965cb3d35a1bbb7868445a7c05264bf"
   integrity sha512-wa7YjyUGfNZngI/vtK0UHAN+lgDCxBPCylVXGp0zu59Fz5aiGtNXaq3DhIov063MorB+VfufLh3JlF2KdTK3xg==
 
-vercel@50.4.11:
-  version "50.4.11"
-  resolved "https://registry.yarnpkg.com/vercel/-/vercel-50.4.11.tgz#c1c75be6d2ed992ae2775ebaa24cd10f09e92001"
-  integrity sha512-FTtU+cw+pXjswITKQU5vOzelbHG1GcIQ64DkI7EwiQZO3wwgX9tpHJhg33bTgyRFR5S3iJtjdiLKHdqdHMi7ng==
+vercel@50.5.0:
+  version "50.5.0"
+  resolved "https://registry.yarnpkg.com/vercel/-/vercel-50.5.0.tgz#fdcae6d0f1428d996776cefa50a3a6168843ec48"
+  integrity sha512-z9dfb0XNStSkW5KxCAf5YYDeH6bLzvDooU83viTLX0cDlX+MnWY5rY752kIZLXM5nyzLLhOKXjDrQxb7yYAaiA==
   dependencies:
     "@vercel/backends" "0.0.23"
     "@vercel/blob" "1.0.2"
     "@vercel/build-utils" "13.2.15"
-    "@vercel/detect-agent" "1.0.0"
+    "@vercel/detect-agent" "1.1.0"
     "@vercel/elysia" "0.1.26"
     "@vercel/express" "0.1.33"
     "@vercel/fastify" "0.1.29"
@@ -3334,7 +3334,7 @@ vercel@50.4.11:
     "@vercel/nestjs" "0.2.30"
     "@vercel/next" "4.15.16"
     "@vercel/node" "5.5.27"
-    "@vercel/python" "6.3.0"
+    "@vercel/python" "6.3.1"
     "@vercel/redwood" "2.4.9"
     "@vercel/remix-builder" "5.5.9"
     "@vercel/ruby" "2.2.4"
