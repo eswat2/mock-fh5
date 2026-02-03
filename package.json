@@ -19,14 +19,21 @@
     "vin-generator": "1.0.1"
   },
   "devDependencies": {
+    "bumpp": "10.4.0",
     "chai": "6.2.2",
     "cspell": "9.6.3",
     "env-cmd": "11.0.0",
     "mocha": "11.7.5",
+    "only-allow": "1.2.2",
     "prettier": "3.8.1",
-    "vercel": "50.9.6"
+    "vercel": "50.9.6",
+    "yoctocolors": "2.1.2"
   },
   "scripts": {
+    "bump": "bumpp patch --yes",
+    "deploy-app": "vc --prod",
+    "release": "pnpm bump && pnpm build && pnpm test && pnpm deploy-app",
+    "preinstall": "npx only-allow pnpm",
     "sample": "node sample.mjs",
     "dev": "env-cmd -x -- vc dev --listen 8082 --token \\$API_TOKEN",
     "cc": "prettier --check api utils tests",
@@ -34,8 +41,6 @@
     "spell": "cspell './**/*.js'",
     "test": "mocha ./tests/*.js",
     "build": "yarn format",
-    "predeploy": "yarn test; yarn version --patch",
-    "deploy": "vc --prod",
     "open": "open https://mock-fh5.vercel.app",
     "cars": "open https://mock-fh5.vercel.app/api/cars",
     "solution": "open https://mock-fh5.vercel.app/api/solution"
