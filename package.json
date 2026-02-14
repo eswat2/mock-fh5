@@ -26,7 +26,7 @@
     "mocha": "11.7.5",
     "only-allow": "1.2.2",
     "prettier": "3.8.1",
-    "vercel": "50.17.0",
+    "vercel": "50.17.1",
     "yoctocolors": "2.1.2"
   },
   "scripts": {
