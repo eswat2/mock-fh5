@@ -19,7 +19,7 @@
     "vin-generator": "1.0.1"
   },
   "devDependencies": {
-    "bumpp": "10.4.1",
+    "bumpp": "11.0.0",
     "chai": "6.2.2",
     "cspell": "9.7.0",
     "env-cmd": "11.0.0",
@@ -30,7 +30,7 @@
     "yoctocolors": "2.1.2"
   },
   "scripts": {
-    "bump": "bumpp patch --yes",
+    "bump": "bumpp --release 'patch' -c -t -p",
     "deploy-app": "vc --prod",
     "release": "pnpm bump && pnpm build && pnpm test && pnpm deploy-app",
     "preinstall": "npx only-allow pnpm",
