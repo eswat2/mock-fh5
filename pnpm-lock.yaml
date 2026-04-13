@@ -49,8 +49,8 @@ importers:
         specifier: 3.8.2
         version: 3.8.2
       vercel:
-        specifier: 50.44.0
-        version: 50.44.0(@emnapi/core@1.9.1)(@emnapi/runtime@1.9.1)(typescript@5.9.3)
+        specifier: 51.1.0
+        version: 51.1.0(@emnapi/core@1.9.1)(@emnapi/runtime@1.9.1)(typescript@5.9.3)
       yoctocolors:
         specifier: 2.1.2
         version: 2.1.2
@@ -869,8 +869,8 @@ packages:
   '@vercel/python-analysis@0.11.0':
     resolution: {integrity: sha512-gsoj+nscmNm0xDh+tRhECRhit2VlAVaD7jc9h93sN6rDEBDxPo7eLEgIJFzVDaAItxERZ9Od2IK/04fB9vFy+g==}
 
-  '@vercel/python@6.29.0':
-    resolution: {integrity: sha512-B5nnIJrMjsT2bawrsNmgwjDRarSm2PGr6o2yUFvYlfUyggR0cqt8L9GvPJPijUt2biebukWE18rAzf41JDfkUA==}
+  '@vercel/python@6.30.0':
+    resolution: {integrity: sha512-r9+6eTc6e2CrkWElNRp+zjVKmSNu3anyrL34MGhkdvWguglFDmcMP8YdI3rLLAOcboqY1BwXoD879LOw31cSyA==}
 
   '@vercel/redwood@2.4.12':
     resolution: {integrity: sha512-8kJ7eEerI4iMpKVRxQCsnxiIwRVsWtyirEbYb4erCqqsJymTu/xrjhsfAUuzeP8qkuYGP82MJVK+hpKlFtsjGw==}
@@ -1613,8 +1613,8 @@ packages:
   lru-cache@10.4.3:
     resolution: {integrity: sha512-JNAzZcXrCt42VGLuYz0zfAzDfAvJWW6AfYlDBQyDV5DClI2m5sAmK+OIO7s59XfsRsWHp02jAJrRadPRGTt6SQ==}
 
-  lru-cache@11.3.3:
-    resolution: {integrity: sha512-JvNw9Y81y33E+BEYPr0U7omo+U9AySnsMsEiXgwT6yqd31VQWTLNQqmT4ou5eqPFUrTfIDFta2wKhB1hyohtAQ==}
+  lru-cache@11.3.5:
+    resolution: {integrity: sha512-NxVFwLAnrd9i7KUBxC4DrUhmgjzOs+1Qm50D3oF1/oL+r1NpZ4gA7xvG0/zJ8evR7zIKn4vLf7qTNduWFtCrRw==}
     engines: {node: 20 || >=22}
 
   lru-cache@6.0.0:
@@ -2159,8 +2159,8 @@ packages:
     resolution: {integrity: sha512-sC+b0tB1whOCzbtlx20fx3WgCXwkW627p4EA9uM+/tNNPkSS+eSEld6pAs9nDv7WbY1UUljBMYPtu9BCOrCWKA==}
     engines: {node: '>=18.17'}
 
-  undici@7.24.7:
-    resolution: {integrity: sha512-H/nlJ/h0ggGC+uRL3ovD+G0i4bqhvsDOpbDv7At5eFLlj2b41L8QliGbnl2H7SnDiYhENphh1tQFJZf+MyfLsQ==}
+  undici@7.25.0:
+    resolution: {integrity: sha512-xXnp4kTyor2Zq+J1FfPI6Eq3ew5h6Vl0F/8d9XU5zZQf1tX9s2Su1/3PiMmUANFULpmksxkClamIZcaUqryHsQ==}
     engines: {node: '>=20.18.1'}
 
   universalify@2.0.1:
@@ -2177,8 +2177,8 @@ packages:
   util@0.10.4:
     resolution: {integrity: sha512-0Pm9hTQ3se5ll1XihRic3FDIku70C+iHUdT/W926rSgHV5QgXsYbKZN8MSC3tJtSkhuROzvsQjAaFENRXr+19A==}
 
-  vercel@50.44.0:
-    resolution: {integrity: sha512-9FO5H6eFcKOtAzWyKGYMrc/ba3rvIQTvPbSSDAVdAIIesOTy47qV/Zsqf1qOUWrmPdSou3x5F++VfJBfMUhcyg==}
+  vercel@51.1.0:
+    resolution: {integrity: sha512-iMfAqlXHmgebtl/TX9wx8HrXIu9hVWJrSGG+f3xZt7LuAzl/4jTWSvQfScUeUPu4yXBjJMRgd6n7aODm4OMXbg==}
     engines: {node: '>= 18'}
     hasBin: true
 
@@ -3074,7 +3074,7 @@ snapshots:
       smol-toml: 1.5.2
       zod: 3.22.4
 
-  '@vercel/python@6.29.0':
+  '@vercel/python@6.30.0':
     dependencies:
       '@vercel/python-analysis': 0.11.0
 
@@ -3117,7 +3117,7 @@ snapshots:
       ms: 2.1.3
       picocolors: 1.1.1
       tar-stream: 3.1.7
-      undici: 7.24.7
+      undici: 7.25.0
       xdg-app-paths: 5.1.0
       zod: 3.24.4
     transitivePeerDependencies:
@@ -3855,7 +3855,7 @@ snapshots:
 
   lru-cache@10.4.3: {}
 
-  lru-cache@11.3.3: {}
+  lru-cache@11.3.5: {}
 
   lru-cache@6.0.0:
     dependencies:
@@ -4065,7 +4065,7 @@ snapshots:
 
   path-scurry@2.0.2:
     dependencies:
-      lru-cache: 11.3.3
+      lru-cache: 11.3.5
       minipass: 7.1.3
 
   path-to-regexp@6.1.0: {}
@@ -4398,7 +4398,7 @@ snapshots:
 
   undici@6.24.1: {}
 
-  undici@7.24.7: {}
+  undici@7.25.0: {}
 
   universalify@2.0.1: {}
 
@@ -4412,7 +4412,7 @@ snapshots:
     dependencies:
       inherits: 2.0.3
 
-  vercel@50.44.0(@emnapi/core@1.9.1)(@emnapi/runtime@1.9.1)(typescript@5.9.3):
+  vercel@51.1.0(@emnapi/core@1.9.1)(@emnapi/runtime@1.9.1)(typescript@5.9.3):
     dependencies:
       '@vercel/backends': 0.0.59(@emnapi/core@1.9.1)(@emnapi/runtime@1.9.1)(typescript@5.9.3)
       '@vercel/blob': 2.3.0
@@ -4431,7 +4431,7 @@ snapshots:
       '@vercel/next': 4.16.6
       '@vercel/node': 5.7.4
       '@vercel/prepare-flags-definitions': 0.2.1
-      '@vercel/python': 6.29.0
+      '@vercel/python': 6.30.0
       '@vercel/redwood': 2.4.12
       '@vercel/remix-builder': 5.7.2
       '@vercel/ruby': 2.3.2
