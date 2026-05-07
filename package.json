@@ -10,7 +10,7 @@
   "engines": {
     "node": ">=18"
   },
-  "packageManager": "pnpm@10.33.4",
+  "packageManager": "pnpm@11.0.8",
   "dependencies": {
     "chance": "1.1.13",
     "fs": "0.0.1-security",
@@ -20,7 +20,7 @@
     "vin-generator": "1.0.1"
   },
   "devDependencies": {
-    "bumpp": "11.0.1",
+    "bumpp": "11.1.0",
     "chai": "6.2.2",
     "cspell": "10.0.0",
     "env-cmd": "11.0.0",
