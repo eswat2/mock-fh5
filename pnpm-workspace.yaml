@@ -7,21 +7,25 @@ allowBuilds:
   'proto-tailwindcss-clrs': true
 
 minimumReleaseAgeExclude:
-  - '@vercel/backends@0.8.3'
-  - '@vercel/build-utils@13.26.4'
-  - '@vercel/cervel@0.1.11'
-  - '@vercel/elysia@0.1.84'
-  - '@vercel/express@0.1.94'
-  - '@vercel/fastify@0.1.87'
-  - '@vercel/gatsby-plugin-vercel-builder@2.2.10'
-  - '@vercel/h3@0.1.93'
-  - '@vercel/hono@0.2.87'
-  - '@vercel/koa@0.1.67'
-  - '@vercel/nestjs@0.2.88'
-  - '@vercel/next@4.17.5'
-  - '@vercel/node@5.8.8'
-  - '@vercel/python@6.44.0'
-  - '@vercel/redwood@2.4.15'
-  - '@vercel/remix-builder@5.8.4'
-  - '@vercel/static-build@2.9.33'
-  - vercel@54.6.1
+  - '@cspell/cspell-bundled-dicts@10.0.1'
+  - '@cspell/cspell-json-reporter@10.0.1'
+  - '@cspell/cspell-performance-monitor@10.0.1'
+  - '@cspell/cspell-pipe@10.0.1'
+  - '@cspell/cspell-resolver@10.0.1'
+  - '@cspell/cspell-service-bus@10.0.1'
+  - '@cspell/cspell-types@10.0.1'
+  - '@cspell/cspell-worker@10.0.1'
+  - '@cspell/dynamic-import@10.0.1'
+  - '@cspell/filetypes@10.0.1'
+  - '@cspell/rpc@10.0.1'
+  - '@cspell/strong-weak-map@10.0.1'
+  - '@cspell/url@10.0.1'
+  - cspell-config-lib@10.0.1
+  - cspell-dictionary@10.0.1
+  - cspell-gitignore@10.0.1
+  - cspell-glob@10.0.1
+  - cspell-grammar@10.0.1
+  - cspell-io@10.0.1
+  - cspell-lib@10.0.1
+  - cspell-trie-lib@10.0.1
+  - cspell@10.0.1
