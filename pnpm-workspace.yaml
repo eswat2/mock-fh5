@@ -7,25 +7,18 @@ allowBuilds:
   'proto-tailwindcss-clrs': true
 
 minimumReleaseAgeExclude:
-  - '@cspell/cspell-bundled-dicts@10.0.1'
-  - '@cspell/cspell-json-reporter@10.0.1'
-  - '@cspell/cspell-performance-monitor@10.0.1'
-  - '@cspell/cspell-pipe@10.0.1'
-  - '@cspell/cspell-resolver@10.0.1'
-  - '@cspell/cspell-service-bus@10.0.1'
-  - '@cspell/cspell-types@10.0.1'
-  - '@cspell/cspell-worker@10.0.1'
-  - '@cspell/dynamic-import@10.0.1'
-  - '@cspell/filetypes@10.0.1'
-  - '@cspell/rpc@10.0.1'
-  - '@cspell/strong-weak-map@10.0.1'
-  - '@cspell/url@10.0.1'
-  - cspell-config-lib@10.0.1
-  - cspell-dictionary@10.0.1
-  - cspell-gitignore@10.0.1
-  - cspell-glob@10.0.1
-  - cspell-grammar@10.0.1
-  - cspell-io@10.0.1
-  - cspell-lib@10.0.1
-  - cspell-trie-lib@10.0.1
-  - cspell@10.0.1
+  - '@vercel/backends@0.8.4'
+  - '@vercel/build-utils@13.26.5'
+  - '@vercel/cervel@0.1.12'
+  - '@vercel/elysia@0.1.85'
+  - '@vercel/express@0.1.95'
+  - '@vercel/fastify@0.1.88'
+  - '@vercel/gatsby-plugin-vercel-builder@2.2.11'
+  - '@vercel/h3@0.1.94'
+  - '@vercel/hono@0.2.88'
+  - '@vercel/koa@0.1.68'
+  - '@vercel/nestjs@0.2.89'
+  - '@vercel/node@5.8.9'
+  - '@vercel/remix-builder@5.8.5'
+  - '@vercel/static-build@2.9.34'
+  - vercel@54.7.1
