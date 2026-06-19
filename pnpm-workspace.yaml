@@ -8,4 +8,4 @@ allowBuilds:
 
 minimumReleaseAgeExclude:
   - nanoid@5.1.14
-  - vercel@54.14.2
+  - papaparse@5.5.4
