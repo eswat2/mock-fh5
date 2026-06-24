@@ -14,7 +14,7 @@
   "dependencies": {
     "chance": "1.1.13",
     "fs": "0.0.1-security",
-    "nanoid": "5.1.15",
+    "nanoid": "5.1.16",
     "papaparse": "5.5.4",
     "path": "0.12.7",
     "vin-generator": "1.0.1"
@@ -27,7 +27,7 @@
     "mocha": "11.7.6",
     "only-allow": "1.2.2",
     "prettier": "3.8.4",
-    "vercel": "54.15.1",
+    "vercel": "54.16.0",
     "yoctocolors": "2.1.2"
   },
   "scripts": {
