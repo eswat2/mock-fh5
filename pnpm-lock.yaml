@@ -49,8 +49,8 @@ importers:
         specifier: 3.9.4
         version: 3.9.4
       vercel:
-        specifier: 54.18.7
-        version: 54.18.7(@emnapi/core@1.11.1)(@emnapi/runtime@1.11.1)
+        specifier: 54.20.0
+        version: 54.20.0(@emnapi/core@1.11.1)(@emnapi/runtime@1.11.1)
       yoctocolors:
         specifier: 2.1.2
         version: 2.1.2
@@ -1845,8 +1845,8 @@ packages:
   package-json-from-dist@1.0.1:
     resolution: {integrity: sha512-UEZIS3/by4OC8vL3P2dTXRETpebLI2NiI5vIrjaD/5UtrkFX/tNbwjTSRAGC/+7CAo2pIcBaRgWmcBBHcsaCIw==}
 
-  package-manager-detector@1.6.0:
-    resolution: {integrity: sha512-61A5ThoTiDG/C8s8UMZwSorAGwMJ0ERVGj2OjoW5pAalsNOg15+iQiPzrLJ4jhZ1HJzmC2PIHT2oEiH3R5fzNA==}
+  package-manager-detector@1.7.0:
+    resolution: {integrity: sha512-xg1eHpwYL/D/HEdWw2goFZP6vV0FH7W+PZ5rFkGjdIDLtxq7EkzBUeT3m+lndYCt8wKbmofUu1MUdMCXkCk9ZQ==}
 
   papaparse@5.5.4:
     resolution: {integrity: sha512-SwzWD9gl/ElwYLCI0nUja1mFJzjq2D8ziShfNBa7zCHzkOozeOGDwHWQ+tvCzEZcewecWZ5U7kUopDnG+DFYEQ==}
@@ -2226,8 +2226,8 @@ packages:
   util@0.10.4:
     resolution: {integrity: sha512-0Pm9hTQ3se5ll1XihRic3FDIku70C+iHUdT/W926rSgHV5QgXsYbKZN8MSC3tJtSkhuROzvsQjAaFENRXr+19A==}
 
-  vercel@54.18.7:
-    resolution: {integrity: sha512-qOSlp029mwhEKwZTTXp4oMu3RGklGacSVTuLiH8l8bzmAcME1suDEk4ttdIzbbPiEDasyATJoQMBMh+pYkxrDQ==}
+  vercel@54.20.0:
+    resolution: {integrity: sha512-EYrd7MVs+JhHhc93aGl0uV9jvapClqRWHJz3g6l7ZgrttxD6U1v/3iWYZg/yJMVtZ9h9nmHICZXJiD0k8YFAyA==}
     engines: {node: '>= 18'}
     hasBin: true
 
@@ -3354,7 +3354,7 @@ snapshots:
       args-tokenizer: 0.3.0
       cac: 7.0.0
       jsonc-parser: 3.3.1
-      package-manager-detector: 1.6.0
+      package-manager-detector: 1.7.0
       semver: 7.8.5
       tinyexec: 1.2.4
       tinyglobby: 0.2.17
@@ -4114,7 +4114,7 @@ snapshots:
 
   package-json-from-dist@1.0.1: {}
 
-  package-manager-detector@1.6.0: {}
+  package-manager-detector@1.7.0: {}
 
   papaparse@5.5.4: {}
 
@@ -4483,7 +4483,7 @@ snapshots:
     dependencies:
       inherits: 2.0.3
 
-  vercel@54.18.7(@emnapi/core@1.11.1)(@emnapi/runtime@1.11.1):
+  vercel@54.20.0(@emnapi/core@1.11.1)(@emnapi/runtime@1.11.1):
     dependencies:
       '@vercel/backends': 0.8.21(@emnapi/core@1.11.1)(@emnapi/runtime@1.11.1)
       '@vercel/blob': 2.4.0
