@@ -49,8 +49,8 @@ importers:
         specifier: 3.9.5
         version: 3.9.5
       vercel:
-        specifier: 56.3.1
-        version: 56.3.1(@emnapi/core@1.11.2)(@emnapi/runtime@1.11.2)
+        specifier: 56.3.2
+        version: 56.3.2(@emnapi/core@1.11.2)(@emnapi/runtime@1.11.2)(supports-color@8.1.1)
       yoctocolors:
         specifier: 2.1.2
         version: 2.1.2
@@ -2143,8 +2143,8 @@ packages:
   util@0.10.4:
     resolution: {integrity: sha512-0Pm9hTQ3se5ll1XihRic3FDIku70C+iHUdT/W926rSgHV5QgXsYbKZN8MSC3tJtSkhuROzvsQjAaFENRXr+19A==}
 
-  vercel@56.3.1:
-    resolution: {integrity: sha512-i0sfBaX6SiTfylSFUL8VPfztfdfDOjGHwJXeUa80d7b+GSR8Palmw6eB93dHf+T/6hLBTpUvIPZFU5UasG7lsg==}
+  vercel@56.3.2:
+    resolution: {integrity: sha512-UyOL/TMXPOvVyx4SEzpP4kLdv56dUPU4VBRrGzyY+GEBX0o8vTtp+CPOAr1gKAHDgeWdnrD8SGG3D3ONNU+FEg==}
     engines: {node: '>= 18'}
     hasBin: true
 
@@ -2627,11 +2627,11 @@ snapshots:
     dependencies:
       minipass: 7.1.3
 
-  '@mapbox/node-pre-gyp@2.0.3':
+  '@mapbox/node-pre-gyp@2.0.3(supports-color@8.1.1)':
     dependencies:
       consola: 3.4.2
       detect-libc: 2.1.2
-      https-proxy-agent: 7.0.6
+      https-proxy-agent: 7.0.6(supports-color@8.1.1)
       node-fetch: 2.7.0
       nopt: 8.1.0
       semver: 7.8.5
@@ -2862,10 +2862,10 @@ snapshots:
     dependencies:
       undici-types: 5.26.5
 
-  '@vercel/backends@0.8.25(@emnapi/core@1.11.2)(@emnapi/runtime@1.11.2)':
+  '@vercel/backends@0.8.25(@emnapi/core@1.11.2)(@emnapi/runtime@1.11.2)(supports-color@8.1.1)':
     dependencies:
       '@vercel/build-utils': 13.34.0
-      '@vercel/nft': 1.10.0
+      '@vercel/nft': 1.10.0(supports-color@8.1.1)
       '@vercel/static-config': 3.4.0
       execa: 3.2.0
       fs-extra: 11.1.0
@@ -2899,9 +2899,9 @@ snapshots:
       cjs-module-lexer: 1.2.3
       es-module-lexer: 1.5.0
 
-  '@vercel/cervel@0.1.33(@emnapi/core@1.11.2)(@emnapi/runtime@1.11.2)':
+  '@vercel/cervel@0.1.33(@emnapi/core@1.11.2)(@emnapi/runtime@1.11.2)(supports-color@8.1.1)':
     dependencies:
-      '@vercel/backends': 0.8.25(@emnapi/core@1.11.2)(@emnapi/runtime@1.11.2)
+      '@vercel/backends': 0.8.25(@emnapi/core@1.11.2)(@emnapi/runtime@1.11.2)(supports-color@8.1.1)
     transitivePeerDependencies:
       - '@emnapi/core'
       - '@emnapi/runtime'
@@ -2926,9 +2926,9 @@ snapshots:
 
   '@vercel/detect-agent@1.2.3': {}
 
-  '@vercel/elysia@0.1.102':
+  '@vercel/elysia@0.1.102(supports-color@8.1.1)':
     dependencies:
-      '@vercel/node': 5.8.26
+      '@vercel/node': 5.8.26(supports-color@8.1.1)
       '@vercel/static-config': 3.4.0
     transitivePeerDependencies:
       - encoding
@@ -2937,11 +2937,11 @@ snapshots:
 
   '@vercel/error-utils@2.2.0': {}
 
-  '@vercel/express@0.1.116(@emnapi/core@1.11.2)(@emnapi/runtime@1.11.2)':
+  '@vercel/express@0.1.116(@emnapi/core@1.11.2)(@emnapi/runtime@1.11.2)(supports-color@8.1.1)':
     dependencies:
-      '@vercel/cervel': 0.1.33(@emnapi/core@1.11.2)(@emnapi/runtime@1.11.2)
-      '@vercel/nft': 1.10.0
-      '@vercel/node': 5.8.26
+      '@vercel/cervel': 0.1.33(@emnapi/core@1.11.2)(@emnapi/runtime@1.11.2)(supports-color@8.1.1)
+      '@vercel/nft': 1.10.0(supports-color@8.1.1)
+      '@vercel/node': 5.8.26(supports-color@8.1.1)
       '@vercel/static-config': 3.4.0
       fs-extra: 11.1.0
       path-to-regexp: 8.3.0
@@ -2954,20 +2954,20 @@ snapshots:
       - rollup
       - supports-color
 
-  '@vercel/fastify@0.1.105':
+  '@vercel/fastify@0.1.105(supports-color@8.1.1)':
     dependencies:
-      '@vercel/node': 5.8.26
+      '@vercel/node': 5.8.26(supports-color@8.1.1)
       '@vercel/static-config': 3.4.0
     transitivePeerDependencies:
       - encoding
       - rollup
       - supports-color
 
-  '@vercel/fun@1.3.0':
+  '@vercel/fun@1.3.0(supports-color@8.1.1)':
     dependencies:
       '@tootallnate/once': 2.0.0
       async-listen: 1.2.0
-      debug: 4.3.4
+      debug: 4.3.4(supports-color@8.1.1)
       generic-pool: 3.4.2
       micro: 9.3.5-canary.3
       ms: 2.1.1
@@ -3001,19 +3001,19 @@ snapshots:
 
   '@vercel/go@3.10.2': {}
 
-  '@vercel/h3@0.1.111':
+  '@vercel/h3@0.1.111(supports-color@8.1.1)':
     dependencies:
-      '@vercel/node': 5.8.26
+      '@vercel/node': 5.8.26(supports-color@8.1.1)
       '@vercel/static-config': 3.4.0
     transitivePeerDependencies:
       - encoding
       - rollup
       - supports-color
 
-  '@vercel/hono@0.2.105':
+  '@vercel/hono@0.2.105(supports-color@8.1.1)':
     dependencies:
-      '@vercel/nft': 1.10.0
-      '@vercel/node': 5.8.26
+      '@vercel/nft': 1.10.0(supports-color@8.1.1)
+      '@vercel/node': 5.8.26(supports-color@8.1.1)
       '@vercel/static-config': 3.4.0
       fs-extra: 11.1.0
       path-to-regexp: 8.3.0
@@ -3029,35 +3029,35 @@ snapshots:
       '@vercel/static-config': 3.4.0
       ts-morph: 12.0.0
 
-  '@vercel/koa@0.1.85':
+  '@vercel/koa@0.1.85(supports-color@8.1.1)':
     dependencies:
-      '@vercel/node': 5.8.26
+      '@vercel/node': 5.8.26(supports-color@8.1.1)
       '@vercel/static-config': 3.4.0
     transitivePeerDependencies:
       - encoding
       - rollup
       - supports-color
 
-  '@vercel/nestjs@0.2.106':
+  '@vercel/nestjs@0.2.106(supports-color@8.1.1)':
     dependencies:
-      '@vercel/node': 5.8.26
+      '@vercel/node': 5.8.26(supports-color@8.1.1)
       '@vercel/static-config': 3.4.0
     transitivePeerDependencies:
       - encoding
       - rollup
       - supports-color
 
-  '@vercel/next@4.20.4':
+  '@vercel/next@4.20.4(supports-color@8.1.1)':
     dependencies:
-      '@vercel/nft': 1.10.0
+      '@vercel/nft': 1.10.0(supports-color@8.1.1)
     transitivePeerDependencies:
       - encoding
       - rollup
       - supports-color
 
-  '@vercel/nft@1.10.0':
+  '@vercel/nft@1.10.0(supports-color@8.1.1)':
     dependencies:
-      '@mapbox/node-pre-gyp': 2.0.3
+      '@mapbox/node-pre-gyp': 2.0.3(supports-color@8.1.1)
       '@rollup/pluginutils': 5.4.0
       acorn: 8.17.0
       acorn-import-attributes: 1.9.5(acorn@8.17.0)
@@ -3074,7 +3074,7 @@ snapshots:
       - rollup
       - supports-color
 
-  '@vercel/node@5.8.26':
+  '@vercel/node@5.8.26(supports-color@8.1.1)':
     dependencies:
       '@edge-runtime/node-utils': 2.3.0
       '@edge-runtime/primitives': 4.1.0
@@ -3082,7 +3082,7 @@ snapshots:
       '@types/node': 20.11.0
       '@vercel/build-utils': 13.34.0
       '@vercel/error-utils': 2.2.0
-      '@vercel/nft': 1.10.0
+      '@vercel/nft': 1.10.0(supports-color@8.1.1)
       '@vercel/static-config': 3.4.0
       async-listen: 3.0.0
       cjs-module-lexer: 1.2.3
@@ -3121,9 +3121,9 @@ snapshots:
     dependencies:
       '@vercel/python-analysis': 0.11.1
 
-  '@vercel/redwood@2.5.0':
+  '@vercel/redwood@2.5.0(supports-color@8.1.1)':
     dependencies:
-      '@vercel/nft': 1.10.0
+      '@vercel/nft': 1.10.0(supports-color@8.1.1)
       '@vercel/static-config': 3.4.0
       semver: 6.3.1
       ts-morph: 12.0.0
@@ -3132,10 +3132,10 @@ snapshots:
       - rollup
       - supports-color
 
-  '@vercel/remix-builder@5.9.1':
+  '@vercel/remix-builder@5.9.1(supports-color@8.1.1)':
     dependencies:
       '@vercel/error-utils': 2.2.0
-      '@vercel/nft': 1.10.0
+      '@vercel/nft': 1.10.0(supports-color@8.1.1)
       '@vercel/static-config': 3.4.0
       path-to-regexp: 6.1.0
       path-to-regexp-updated: path-to-regexp@6.3.0
@@ -3439,9 +3439,11 @@ snapshots:
       semver: 7.8.5
       tinyglobby: 0.2.17
 
-  debug@4.3.4:
+  debug@4.3.4(supports-color@8.1.1):
     dependencies:
       ms: 2.1.2
+    optionalDependencies:
+      supports-color: 8.1.1
 
   debug@4.4.3(supports-color@8.1.1):
     dependencies:
@@ -3693,7 +3695,7 @@ snapshots:
       statuses: 1.5.0
       toidentifier: 1.0.0
 
-  https-proxy-agent@7.0.6:
+  https-proxy-agent@7.0.6(supports-color@8.1.1):
     dependencies:
       agent-base: 7.1.4
       debug: 4.4.3(supports-color@8.1.1)
@@ -4096,7 +4098,7 @@ snapshots:
 
   safer-buffer@2.1.2: {}
 
-  sandbox@3.4.0:
+  sandbox@3.4.0(supports-color@8.1.1):
     dependencies:
       '@vercel/sandbox': 2.4.0
       async-retry: 1.3.3
@@ -4313,31 +4315,31 @@ snapshots:
     dependencies:
       inherits: 2.0.3
 
-  vercel@56.3.1(@emnapi/core@1.11.2)(@emnapi/runtime@1.11.2):
+  vercel@56.3.2(@emnapi/core@1.11.2)(@emnapi/runtime@1.11.2)(supports-color@8.1.1):
     dependencies:
-      '@vercel/backends': 0.8.25(@emnapi/core@1.11.2)(@emnapi/runtime@1.11.2)
+      '@vercel/backends': 0.8.25(@emnapi/core@1.11.2)(@emnapi/runtime@1.11.2)(supports-color@8.1.1)
       '@vercel/blob': 2.4.0
       '@vercel/build-utils': 13.34.0
       '@vercel/cli-auth': 0.3.0
       '@vercel/cli-config': 0.2.0
       '@vercel/container': 0.0.5
       '@vercel/detect-agent': 1.2.3
-      '@vercel/elysia': 0.1.102
-      '@vercel/express': 0.1.116(@emnapi/core@1.11.2)(@emnapi/runtime@1.11.2)
-      '@vercel/fastify': 0.1.105
-      '@vercel/fun': 1.3.0
+      '@vercel/elysia': 0.1.102(supports-color@8.1.1)
+      '@vercel/express': 0.1.116(@emnapi/core@1.11.2)(@emnapi/runtime@1.11.2)(supports-color@8.1.1)
+      '@vercel/fastify': 0.1.105(supports-color@8.1.1)
+      '@vercel/fun': 1.3.0(supports-color@8.1.1)
       '@vercel/go': 3.10.2
-      '@vercel/h3': 0.1.111
-      '@vercel/hono': 0.2.105
+      '@vercel/h3': 0.1.111(supports-color@8.1.1)
+      '@vercel/hono': 0.2.105(supports-color@8.1.1)
       '@vercel/hydrogen': 1.4.0
-      '@vercel/koa': 0.1.85
-      '@vercel/nestjs': 0.2.106
-      '@vercel/next': 4.20.4
-      '@vercel/node': 5.8.26
+      '@vercel/koa': 0.1.85(supports-color@8.1.1)
+      '@vercel/nestjs': 0.2.106(supports-color@8.1.1)
+      '@vercel/next': 4.20.4(supports-color@8.1.1)
+      '@vercel/node': 5.8.26(supports-color@8.1.1)
       '@vercel/prepare-flags-definitions': 0.3.0
       '@vercel/python': 6.51.0
-      '@vercel/redwood': 2.5.0
-      '@vercel/remix-builder': 5.9.1
+      '@vercel/redwood': 2.5.0(supports-color@8.1.1)
+      '@vercel/remix-builder': 5.9.1(supports-color@8.1.1)
       '@vercel/ruby': 2.5.1
       '@vercel/rust': 1.4.0
       '@vercel/static-build': 2.11.8
@@ -4346,7 +4348,7 @@ snapshots:
       jose: 5.9.6
       jsonc-parser: 3.3.1
       luxon: 3.7.2
-      sandbox: 3.4.0
+      sandbox: 3.4.0(supports-color@8.1.1)
       smol-toml: 1.5.2
       undici: 5.29.0
       zod: 4.1.11
