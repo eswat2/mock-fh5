@@ -20,14 +20,14 @@
     "vin-generator": "1.0.1"
   },
   "devDependencies": {
-    "bumpp": "12.1.1",
+    "bumpp": "12.2.0",
     "chai": "6.2.2",
     "cspell": "10.0.1",
     "env-cmd": "11.0.0",
     "mocha": "11.8.0",
     "only-allow": "1.2.2",
     "prettier": "3.9.6",
-    "vercel": "58.5.1",
+    "vercel": "58.7.1",
     "yoctocolors": "2.2.0"
   },
   "scripts": {
