@@ -22,12 +22,12 @@
   "devDependencies": {
     "bumpp": "12.2.1",
     "chai": "6.2.2",
-    "cspell": "10.0.1",
+    "cspell": "10.1.0",
     "env-cmd": "11.0.0",
     "mocha": "11.8.0",
     "only-allow": "1.2.2",
     "prettier": "3.9.6",
-    "vercel": "59.3.0",
+    "vercel": "59.4.0",
     "yoctocolors": "2.2.0"
   },
   "scripts": {
