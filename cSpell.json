@@ -8,10 +8,11 @@
   "words": [
     "antialiased", 
     "clrs", 
+    "ENOENT",
     "eswat", 
     "forza",
-    "lipsum", 
-    "papaparse", 
+    "lipsum",
+    "papaparse",
     "pickone",
     "predeploy"
   ],

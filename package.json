@@ -13,10 +13,7 @@
   "packageManager": "pnpm@11.23.0+sha512.f00082e5b283a199b74e079da28d155c008fe232f44c8a06ea7ddfa014ecf719fc362f790ecc67b28106ddac2afb24c49a9a079159da560b2ce7d1e98efd11af",
   "dependencies": {
     "chance": "1.1.13",
-    "fs": "0.0.1-security",
     "nanoid": "6.0.1",
-    "papaparse": "5.6.0",
-    "path": "0.12.7",
     "vin-generator": "1.0.1"
   },
   "devDependencies": {
@@ -37,6 +34,7 @@
     "preinstall": "npx only-allow pnpm",
     "sample": "node sample.mjs",
     "dev": "env-cmd -x -- vc dev --listen 8082 --token \\$API_TOKEN",
+    "dev:docker": "vc dev --local --listen 0.0.0.0:8082",
     "cc": "prettier --check api utils tests",
     "format": "prettier --write api utils tests",
     "spell": "cspell './**/*.js'",

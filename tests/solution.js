@@ -39,51 +39,37 @@ const checkSolution = (solution, id) => {
   console.log('-- counts:', counts)
 }
 
-const fetchMakes = (done) => {
-  const callback = (data) => {
-    const list = filters.makes(data)
-    console.log('-- data:', data.length)
-    console.log('-- makes:', list.length)
-    try {
-      expect(list).to.be.a('array').that.have.lengthOf.above(2)
-      done()
-    } catch (error) {
-      done(error)
-    }
-  }
-  fetchData(callback)
+const fetchMakes = () => {
+  const data = fetchData()
+  const list = filters.makes(data)
+  console.log('-- data:', data.length)
+  console.log('-- makes:', list.length)
+  expect(list).to.be.a('array').that.have.lengthOf.above(2)
 }
 
-const fetchSolution = (done, id) => {
-  const callback = (data) => {
-    const solution = id ? dataSet(data, id) : dataSet(data)
-    try {
-      checkSolution(solution, id ? id : 42)
-      done()
-    } catch (error) {
-      done(error)
-    }
-  }
-  fetchData(callback)
+const fetchSolution = (id) => {
+  const data = fetchData()
+  const solution = id ? dataSet(data, id) : dataSet(data)
+  checkSolution(solution, id ? id : 42)
 }
 
 describe('data - forza horizon 5', () => {
   describe('filters', () => {
     describe('makes', () => {
-      it('should return an array...', (done) => {
-        fetchMakes(done)
+      it('should return an array...', () => {
+        fetchMakes()
       })
     })
   })
 
   describe('solution', () => {
     const id = 342
-    it(`should return an object... ${keys}`, (done) => {
-      fetchSolution(done)
+    it(`should return an object... ${keys}`, () => {
+      fetchSolution()
     })
 
-    it(`should return an object... ${keys} & ${id}`, (done) => {
-      fetchSolution(done, id)
+    it(`should return an object... ${keys} & ${id}`, () => {
+      fetchSolution(id)
     })
   })
 })

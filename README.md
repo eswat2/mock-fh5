@@ -4,16 +4,24 @@ A prototype REST server which uses the cars from Forza Horizon 5 (video game).  
 
 ## dev
 
-To try this locally, run the following:
+This repo is pnpm-only.  To try this locally, run the following:
 
-1. `yarn`
-2. `yarn dev`
+1. `pnpm install`
+2. `pnpm dev`
 
-The `yarn dev` command allows you to test the Vercel app locally.
+The `pnpm dev` command allows you to test the Vercel app locally.  It expects an `API_TOKEN` in a local `.env` file & serves the app on port 8082.
+
+## docker
+
+To run it in a container instead -- no Vercel login or token required:
+
+1. `docker build -t mock-fh5 .`
+2. `docker run --rm -p 8082:8082 mock-fh5`
 
 ## api
-> localhost:3000 ...
+> localhost:8082 ...
 
+- [/api][api-root]
 - [/api/cars][api-cars]
 - [/api/colors][api-colors]
 - [/api/makes][api-makes]
@@ -26,9 +34,10 @@ The `yarn dev` command allows you to test the Vercel app locally.
 - [eswat2.github.io][eswat2-io]
 
 
-[api-cars]: http://localhost:3000/api/cars
-[api-colors]: http://localhost:3000/api/colors
-[api-makes]: http://localhost:3000/api/makes
-[api-solution]: http://localhost:3000/api/solution
-[api-vins]: http://localhost:3000/api/vins
+[api-root]: http://localhost:8082/api
+[api-cars]: http://localhost:8082/api/cars
+[api-colors]: http://localhost:8082/api/colors
+[api-makes]: http://localhost:8082/api/makes
+[api-solution]: http://localhost:8082/api/solution
+[api-vins]: http://localhost:8082/api/vins
 [eswat2-io]: https://eswat2.github.io
