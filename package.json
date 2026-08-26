@@ -17,7 +17,7 @@
     "vin-generator": "1.0.1"
   },
   "devDependencies": {
-    "bumpp": "12.2.1",
+    "bumpp": "12.2.2",
     "chai": "6.2.2",
     "cspell": "10.1.1",
     "env-cmd": "11.0.0",
