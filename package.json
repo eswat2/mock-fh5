@@ -19,12 +19,12 @@
   "devDependencies": {
     "bumpp": "12.3.0",
     "chai": "6.2.2",
-    "cspell": "10.3.2",
+    "cspell": "10.3.3",
     "env-cmd": "11.0.0",
     "mocha": "12.0.1",
     "only-allow": "1.2.2",
-    "prettier": "3.9.6",
-    "vercel": "59.17.0",
+    "prettier": "3.9.7",
+    "vercel": "59.19.0",
     "yoctocolors": "2.2.0"
   },
   "scripts": {
