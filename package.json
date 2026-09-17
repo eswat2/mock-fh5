@@ -21,7 +21,7 @@
     "chai": "6.2.2",
     "cspell": "10.3.3",
     "env-cmd": "11.0.0",
-    "mocha": "12.0.1",
+    "mocha": "12.0.2",
     "only-allow": "1.2.2",
     "prettier": "3.9.7",
     "vercel": "59.20.0",
