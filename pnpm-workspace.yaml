@@ -7,6 +7,19 @@ allowBuilds:
   'proto-tailwindcss-clrs': true
 
 minimumReleaseAgeExclude:
+  - '@cspell/cspell-bundled-dicts@10.3.4'
+  - '@cspell/cspell-json-reporter@10.3.4'
+  - '@cspell/cspell-performance-monitor@10.3.4'
+  - '@cspell/cspell-pipe@10.3.4'
+  - '@cspell/cspell-resolver@10.3.4'
+  - '@cspell/cspell-service-bus@10.3.4'
+  - '@cspell/cspell-types@10.3.4'
+  - '@cspell/cspell-worker@10.3.4'
+  - '@cspell/dynamic-import@10.3.4'
+  - '@cspell/filetypes@10.3.4'
+  - '@cspell/rpc@10.3.4'
+  - '@cspell/strong-weak-map@10.3.4'
+  - '@cspell/url@10.3.4'
   - '@vercel/backends@10.0.0'
   - '@vercel/build-utils@14.12.0'
   - '@vercel/cervel@0.1.68'
@@ -35,4 +48,13 @@ minimumReleaseAgeExclude:
   - '@vercel/vc-native-linux-x64@60.0.0'
   - '@vercel/vc-native-win32-arm64@60.0.0'
   - '@vercel/vc-native-win32-x64@60.0.0'
+  - cspell-config-lib@10.3.4
+  - cspell-dictionary@10.3.4
+  - cspell-gitignore@10.3.4
+  - cspell-glob@10.3.4
+  - cspell-grammar@10.3.4
+  - cspell-io@10.3.4
+  - cspell-lib@10.3.4
+  - cspell-trie-lib@10.3.4
+  - cspell@10.3.4
   - vercel@60.0.0
