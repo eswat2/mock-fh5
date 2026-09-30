@@ -7,13 +7,11 @@ allowBuilds:
   'proto-tailwindcss-clrs': true
 
 minimumReleaseAgeExclude:
-  - '@cspell/cspell-resolver@10.3.6'
-  - '@vercel/vc-native-darwin-arm64@61.1.0'
-  - '@vercel/vc-native-darwin-x64@61.1.0'
-  - '@vercel/vc-native-linux-arm64@61.1.0'
-  - '@vercel/vc-native-linux-x64@61.1.0'
-  - '@vercel/vc-native-win32-arm64@61.1.0'
-  - '@vercel/vc-native-win32-x64@61.1.0'
-  - cspell-config-lib@10.3.6
-  - cspell-dictionary@10.3.6
-  - vercel@61.1.0
+  - '@vercel/vc-native-darwin-arm64@62.0.0'
+  - '@vercel/vc-native-darwin-x64@62.0.0'
+  - '@vercel/vc-native-linux-arm64@62.0.0'
+  - '@vercel/vc-native-linux-x64@62.0.0'
+  - '@vercel/vc-native-win32-arm64@62.0.0'
+  - '@vercel/vc-native-win32-x64@62.0.0'
+  - chai@6.3.0
+  - vercel@62.0.0
